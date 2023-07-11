@@ -1,0 +1,23 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.col {
+    text-align: center;
+}
+  
+.centeredText {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
