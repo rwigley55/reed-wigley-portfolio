@@ -55,3 +55,20 @@ body {
   font-size: 0rem !important;
   padding: 0.01rem !important;
 }
+
+h2 {
+  font-size: 0.75rem;
+}
+
+.body-text {
+  font-size: 0.4rem;
+}
+
+.rounded {
+  border-radius: 20% !important;
+}
+
+.text-secondary {
+  color: #B0D7FF !important;
+  font-size: 0.4rem;
+}
