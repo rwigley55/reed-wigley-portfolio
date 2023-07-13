@@ -1,3 +1,7 @@
+.container {
+  max-width: 75%;
+}
+
 * {
   color: #ADACB5;
   font-family: 'Dosis', sans-serif;
@@ -71,4 +75,17 @@ h2 {
 .text-secondary {
   color: #B0D7FF !important;
   font-size: 0.4rem;
+}
+
+.card-title {
+  font-size: 0.6rem;
+}
+
+.card {
+  cursor: pointer !important;
+  background-color: #3A3F55;
+}
+
+.border-primary {
+  border-color: #B0D7FF !important;
 }
