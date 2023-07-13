@@ -32,7 +32,7 @@ const PortfolioCard = (props) => {
           <Card className="border-3 border-primary" onClick={() => setModalOneShow(true)} style={{ width: '6rem' }}>
             <Card.Img variant="top" src={headshot} />
             <Card.Body className="p-2">
-            <Card.Title className="text-center">Example</Card.Title>
+            <Card.Title className="text-center text-primary">Example</Card.Title>
             </Card.Body>
           </Card>
           </Col>
@@ -40,7 +40,7 @@ const PortfolioCard = (props) => {
           <Card className="border-3 border-primary" style={{ width: '6rem' }}>
             <Card.Img variant="top" src={headshot} />
             <Card.Body className="p-2">
-              <Card.Title className="text-center">Example</Card.Title>
+              <Card.Title className="text-center text-primary">Example</Card.Title>
             </Card.Body>
           </Card>
         </Col>
@@ -48,7 +48,7 @@ const PortfolioCard = (props) => {
           <Card className="border-3 border-primary" style={{ width: '6rem' }}>
             <Card.Img variant="top" src={headshot} />
             <Card.Body className="p-2">
-            <Card.Title className="text-center">Example</Card.Title>
+            <Card.Title className="text-center text-primary">Example</Card.Title>
             </Card.Body>
           </Card>
           <>

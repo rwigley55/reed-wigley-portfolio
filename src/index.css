@@ -89,3 +89,27 @@ h2 {
 .border-primary {
   border-color: #B0D7FF !important;
 }
+
+.modal-content {
+  background-color: #3A3F55;
+}
+
+.modal-title {
+  font-size: 0.6rem;
+}
+
+.modal-stack {
+  font-size: 0.5rem;
+}
+
+.modal-content {
+  font-size: 0.4rem;
+}
+
+.btn-info {
+  background-color: #B0D7FF !important;
+}
+
+.btn-close {
+  background-image: url(svg/closebutton.svg);
+}
