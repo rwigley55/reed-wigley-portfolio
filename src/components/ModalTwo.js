@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import CloseButton from 'react-bootstrap/CloseButton';
-import Image from 'react-bootstrap/Image';
+import CloseButton from "react-bootstrap/CloseButton";
+import Image from "react-bootstrap/Image";
 import headshot from "../imgs/headshot_wigleyr.jpg";
 
-const ModalOne = (props) => {
+const ModalTwo = (props) => {
   return (
     <Modal
       {...props}
@@ -20,8 +20,11 @@ const ModalOne = (props) => {
       </Modal.Header> */}
       <Modal.Body className="p-2">
         <Image src={headshot} thumbnail className="border-0 p-0" />
-      <Modal.Title className="border-top mt-1" id="contained-modal-title-vcenter">
-          Modal Header 1
+        <Modal.Title
+          className="border-top mt-1"
+          id="contained-modal-title-vcenter"
+        >
+          Modal Header 2
         </Modal.Title>
         <h4 className="modal-stack m-0">Centered Modal</h4>
         <p className="modal-content border-0 m-0">
@@ -30,12 +33,20 @@ const ModalOne = (props) => {
           consectetur ac, vestibulum at eros.
         </p>
       </Modal.Body>
-      <Modal.Footer closeButton className="border-0 justify-content-between p-2">
-        <Button className="btn-info modal-stack border-0 m-0 px-2 py-1" onClick={props.onHide}>Visit Project</Button>
+      <Modal.Footer
+        closeButton
+        className="border-0 justify-content-between p-2"
+      >
+        <Button
+          className="btn-info modal-stack border-0 m-0 px-2 py-1"
+          onClick={props.onHide}
+        >
+          Visit Project
+        </Button>
         <CloseButton className="p-0 m-0" onClick={props.onHide} />
       </Modal.Footer>
     </Modal>
   );
 };
 
-export default ModalOne;
+export default ModalTwo;

@@ -5,6 +5,7 @@ import TitleCard from "./components/TitleCard";
 import SiteNav from "./components/SiteNav";
 import AboutCard from "./components/AboutCard";
 import PortfolioCard from "./components/PortfolioCard";
+import ContactCard from "./components/ContactCard";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SiteNav />
       <AboutCard />
       <PortfolioCard />
+      <ContactCard />
     </div>
   );
 }

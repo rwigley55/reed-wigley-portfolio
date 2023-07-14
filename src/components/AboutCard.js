@@ -42,7 +42,7 @@ const AboutCard = (props) => {
       <Row className="mt-1">
         <Col xs={8}>
           <Figure className="pe-1 d-inline-flex flex-column align-items-center">
-            <Figure.Image style={{ Color: 'blue' }} width={75} height={75} src={html} className="mb-0" />
+            <Figure.Image width={75} height={75} src={html} className="mb-0" />
             <Figure.Caption className="body-text text-center text-primary lh-1">
               HTML
             </Figure.Caption>

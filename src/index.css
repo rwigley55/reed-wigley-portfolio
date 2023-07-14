@@ -96,6 +96,7 @@ h2 {
 
 .modal-title {
   font-size: 0.6rem;
+  border-color: green !important;
 }
 
 .modal-stack {
@@ -112,4 +113,13 @@ h2 {
 
 .btn-close {
   background-image: url(svg/closebutton.svg);
+}
+
+.btn-close:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.pink {
+  background-color: pink;
 }
