@@ -6,7 +6,7 @@ import linkedin from "../svg/linkedin.svg";
 
 const ContactCard = (props) => {
   return (
-    <Container>
+    <Container id="contact">
       <Row>
         <Col>
           <h2 className="text-lowercase">Contact</h2>

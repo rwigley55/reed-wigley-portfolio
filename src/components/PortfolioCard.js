@@ -24,7 +24,7 @@ const PortfolioCard = (props) => {
           onHide={() => setModalThreeShow(false)}
         />
       </>
-      <Container className="bg-primary">
+      <Container id="portfolio" className="bg-primary">
         <Row>
           <Col>
             <h2 className="text-lowercase">Portfolio</h2>
@@ -46,8 +46,8 @@ const PortfolioCard = (props) => {
             </p>
           </Col>
         </Row>
-        <Row>
-          <Col className="pt-3">
+        <Row className="pb-2">
+          <Col className="pt-3 d-flex justify-content-center justify-content-xl-start">
             <Card
               className="border-3 border-primary"
               onClick={() => setModalOneShow(true)}
@@ -61,7 +61,7 @@ const PortfolioCard = (props) => {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="pt-3">
+          <Col className="pt-3 d-flex justify-content-center justify-content-xl-start">
             <Card
               className="border-3 border-primary"
               onClick={() => setModalTwoShow(true)}
@@ -75,7 +75,7 @@ const PortfolioCard = (props) => {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="pt-3">
+          <Col className="pt-3 d-flex justify-content-center justify-content-xl-start">
             <Card
               className="border-3 border-primary"
               onClick={() => setModalThreeShow(true)}

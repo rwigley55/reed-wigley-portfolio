@@ -13,13 +13,13 @@ const SiteNav = (props) => {
             <Nav.Link className={`${styles.small} text-primary text-lowercase p-1 ms-auto`} href="#home">
               Home
             </Nav.Link>
-            <Nav.Link className={`${styles.small} text-primary text-lowercase p-1 ms-auto`} href="#link">
+            <Nav.Link className={`${styles.small} text-primary text-lowercase p-1 ms-auto`} href="#about">
               About
             </Nav.Link>
-            <Nav.Link className={`${styles.small} text-primary text-lowercase p-1 ms-auto`} href="#link">
+            <Nav.Link className={`${styles.small} text-primary text-lowercase p-1 ms-auto`} href="#portfolio">
               Portfolio
             </Nav.Link>
-            <Nav.Link className={`${styles.small} text-primary text-lowercase p-1 ms-auto`} href="#link">
+            <Nav.Link className={`${styles.small} text-primary text-lowercase p-1 ms-auto`} href="#contact">
               Contact
             </Nav.Link>
             <Nav.Link
