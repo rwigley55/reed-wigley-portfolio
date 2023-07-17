@@ -25,7 +25,7 @@ const PortfolioCard = (props) => {
         />
       </>
       <Container id="portfolio" className="bg-secondary">
-        <Row>
+        <Row className="pt-4">
           <Col>
             <h2 className="text-lowercase">Portfolio</h2>
           </Col>

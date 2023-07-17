@@ -14,7 +14,7 @@ import gtm from "../svg/google-tag-manager.svg";
 const AboutCard = (props) => {
   return (
     <Container id="about" className="bg-primary">
-      <Row>
+      <Row className="pt-4">
         <Col>
           <h2 className="text-lowercase">About</h2>
         </Col>

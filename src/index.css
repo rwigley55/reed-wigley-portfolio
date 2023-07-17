@@ -23,6 +23,11 @@ body {
 
 .text-primary {
   color: #F5F3F4 !important;
+  transition: color 0.5s ease;
+}
+
+a.text-primary:hover {
+  color: #14FF00 !important;
 }
 
 .text-primary-emphasis {
@@ -33,6 +38,11 @@ body {
 .text-secondary-emphasis {
   color: #FFB800 !important;
   font-size: 0.4rem;
+  transition: color 0.5s ease;
+}
+
+a.text-secondary-emphasis:hover {
+  color: #14FF00 !important;
 }
 
 .title-primary-emphasis {
