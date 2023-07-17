@@ -23,7 +23,7 @@ const SiteNav = (props) => {
               Contact
             </Nav.Link>
             <Nav.Link
-              className={`${styles.small} text-lowercase text-primary-emphasis p-1 ms-auto`}
+              className={`${styles.small} text-lowercase text-secondary-emphasis p-1 ms-auto`}
               href="#link"
             >
               Resume

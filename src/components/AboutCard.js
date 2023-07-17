@@ -13,7 +13,7 @@ import gtm from "../svg/google-tag-manager.svg";
 
 const AboutCard = (props) => {
   return (
-    <Container id="about" className="bg-secondary">
+    <Container id="about" className="bg-primary">
       <Row>
         <Col>
           <h2 className="text-lowercase">About</h2>
@@ -23,7 +23,7 @@ const AboutCard = (props) => {
         <Col xs={12} xxl={6}>
           <p className="body-text">
             Lorem ipsum dolor sit amet,{" "}
-            <span className="text-secondary">consectetur adipiscing elit</span>,
+            <span className="text-primary-emphasis">consectetur adipiscing elit</span>,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
             Duis ultricies lacus sed turpis{" "}
@@ -40,7 +40,7 @@ const AboutCard = (props) => {
           </p>
         </Col>
         <Col xs={12} xxl={6}>
-          <Image src={headshot} rounded className={styles.headshot} />
+          <Image src={headshot} rounded className={`${styles.headshot} border border-primary`} />
         </Col>
       </Row>
       <Row className="mt-2">

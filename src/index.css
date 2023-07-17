@@ -3,33 +3,48 @@
 }
 
 * {
-  color: #ADACB5;
+  color: #F5F3F4;
   font-family: 'Dosis', sans-serif;
   font-size: 64px;
 }
 
 body {
   margin: 0;
+  background-color: #373737;
 }
 
 .bg-primary {
-  background-color: #2D3142 !important;
+  background-color: #373737 !important;
 }
 
 .bg-secondary {
-  background-color: #3A3F55 !important;
+  background-color: #484848 !important;
 }
 
 .text-primary {
-  color: #ADACB5 !important;
+  color: #F5F3F4 !important;
 }
 
 .text-primary-emphasis {
-  color: #B0D7FF !important;
+  color: #14FF00 !important;
+  font-size: 0.4rem;
+}
+
+.text-secondary-emphasis {
+  color: #FFB800 !important;
+  font-size: 0.4rem;
+}
+
+.title-primary-emphasis {
+  color: #14FF00;
+}
+
+.title-secondary-emphasis {
+  color: #FFB800;
 }
 
 .border-primary {
-  border-color: #EAE8FF !important;
+  border-color: #14FF00 !important;
 }
 
 .navbar-toggler {
@@ -73,7 +88,7 @@ h2 {
 }
 
 .text-secondary {
-  color: #B0D7FF !important;
+  color: #FFB800 !important;
   font-size: 0.4rem;
 }
 
@@ -83,20 +98,20 @@ h2 {
 
 .card {
   cursor: pointer !important;
-  background-color: #3A3F55;
+  background-color: #373737;
 }
 
-.border-primary {
+/* .border-primary {
   border-color: #B0D7FF !important;
-}
+} */
 
 .modal-content {
-  background-color: #3A3F55;
+  background-color: #373737;
 }
 
 .modal-title {
   font-size: 0.6rem;
-  border-color: green !important;
+  border-color: #14FF00 !important;
 }
 
 .modal-stack {
@@ -108,7 +123,7 @@ h2 {
 }
 
 .btn-info {
-  background-color: #B0D7FF !important;
+  background-color: #FFB800 !important;
 }
 
 .btn-close {
@@ -118,8 +133,4 @@ h2 {
 .btn-close:focus {
   outline: none !important;
   box-shadow: none;
-}
-
-.pink {
-  background-color: pink;
 }

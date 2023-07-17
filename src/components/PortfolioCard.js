@@ -11,7 +11,7 @@ const PortfolioCard = (props) => {
   const [modalThreeShow, setModalThreeShow] = React.useState(false);
 
   return (
-    <div className="bg-primary">
+    <div className="bg-secondary">
       <>
         <ModalOne show={modalOneShow} onHide={() => setModalOneShow(false)} />
       </>
@@ -24,7 +24,7 @@ const PortfolioCard = (props) => {
           onHide={() => setModalThreeShow(false)}
         />
       </>
-      <Container id="portfolio" className="bg-primary">
+      <Container id="portfolio" className="bg-secondary">
         <Row>
           <Col>
             <h2 className="text-lowercase">Portfolio</h2>
@@ -40,7 +40,7 @@ const PortfolioCard = (props) => {
               , sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque
               pulvinar. Duis ultricies lacus sed turpis{" "}
-              <span className="text-secondary">tincidunt id aliquet risus</span>
+              <span className="text-primary-emphasis">tincidunt id aliquet risus</span>
               . Risus viverra adipiscing at in tellus integer feugiat
               scelerisque varius.
             </p>
