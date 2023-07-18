@@ -1,10 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import email from "../svg/email.svg";
 import github from "../svg/github.svg";
 import linkedin from "../svg/linkedin.svg";
+import EmailSvg from "../svg/EmailSvg";
+import GithubSvg from "../svg/GithubSvg";
+import LinkedinSvg from "../svg/LinkedinSvg";
+// import { Email as EmailSvg } from "../svg/email.svg";
 
 const ContactCard = (props) => {
+  const [emailFill, setEmailFill] = useState("#FFB800");
+  const [githubFill, setGithubFill] = useState("#FFB800");
+  const [linkedinFill, setLinkedinFill] = useState("#FFB800");
+
+  const handleMouseOverEmail = () => {
+    setEmailFill("#14FF00"); // Set the fill color to blue on hover (you can change this to any color)
+  };
+
+  const handleMouseOverGit = () => {
+    setGithubFill("#14FF00");
+  };
+
+  const handleMouseOverLinkedin = () => {
+    setLinkedinFill("#14FF00");
+  };
+
+  const handleMouseOutEmail = () => {
+    setEmailFill("#FFB800"); // Restore the original fill color when mouse moves out
+  };
+
+  const handleMouseOutGit = () => {
+    setGithubFill("#FFB800");
+  };
+
+  const handleMouseOutLinkedin = () => {
+    setLinkedinFill("#FFB800");
+  };
+
   return (
     <Container id="contact">
       <Row className="pt-4">
@@ -24,9 +56,33 @@ const ContactCard = (props) => {
       </Row>
       <Row className="mb-3">
         <Col className="d-flex justify-content-center">
-          <a href="#"><Image className="mx-2" src={email} width={75} height={75} /></a>
-          <a href="#"><Image className="mx-2" src={github} width={75} height={75} /></a>
-          <a href="#"><Image className="mx-2" src={linkedin} width={75} height={75} /></a>
+          <a href="#">
+            <EmailSvg
+              width={75}
+              height={75}
+              fill={emailFill}
+              onMouseOver={handleMouseOverEmail}
+              onMouseOut={handleMouseOutEmail}
+            />
+          </a>
+          <a href="#">
+            <GithubSvg
+              width={75}
+              height={75}
+              fill={githubFill}
+              onMouseOver={handleMouseOverGit}
+              onMouseOut={handleMouseOutGit}
+            />
+          </a>
+          <a href="#">
+            <LinkedinSvg
+            width={75}
+            height={75}
+            fill={linkedinFill}
+            onMouseOver={handleMouseOverLinkedin}
+            onMouseOut={handleMouseOutLinkedin}
+            />
+          </a>
         </Col>
       </Row>
     </Container>
