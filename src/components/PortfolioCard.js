@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import headshot from "../imgs/headshot_wigleyr.jpg";
+import tipcalc from "../imgs/tip-calculator.png";
+import adduser from "../imgs/add-user-demo.png";
+import expensesapp from "../imgs/expenses-app.png";
 import ModalOne from "./ModalOne";
 import ModalTwo from "./ModalTwo";
 import ModalThree from "./ModalThree";
@@ -40,7 +43,9 @@ const PortfolioCard = (props) => {
               , sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque
               pulvinar. Duis ultricies lacus sed turpis{" "}
-              <span className="text-primary-emphasis">tincidunt id aliquet risus</span>
+              <span className="text-primary-emphasis">
+                tincidunt id aliquet risus
+              </span>
               . Risus viverra adipiscing at in tellus integer feugiat
               scelerisque varius.
             </p>
@@ -49,42 +54,42 @@ const PortfolioCard = (props) => {
         <Row className="pb-2">
           <Col className="pt-3 d-flex justify-content-center justify-content-xl-start">
             <Card
-              className="border-3 border-primary"
+              className="border-3 border-primary card-transition"
               onClick={() => setModalOneShow(true)}
-              style={{ width: "6rem" }}
+              style={{ width: "5rem" }}
             >
-              <Card.Img variant="top" src={headshot} />
+              <Card.Img variant="top" src={tipcalc} className="portfolio-card-img" />
               <Card.Body className="p-2">
                 <Card.Title className="text-center text-primary">
-                  Example
+                  Tip Calculator
                 </Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col className="pt-3 d-flex justify-content-center justify-content-xl-start">
             <Card
-              className="border-3 border-primary"
+              className="border-3 border-primary card-transition"
               onClick={() => setModalTwoShow(true)}
-              style={{ width: "6rem" }}
+              style={{ width: "5rem" }}
             >
-              <Card.Img variant="top" src={headshot} />
+              <Card.Img variant="top" src={adduser} className="portfolio-card-img" />
               <Card.Body className="p-2">
                 <Card.Title className="text-center text-primary">
-                  Example
+                  Add User Demo
                 </Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col className="pt-3 d-flex justify-content-center justify-content-xl-start">
             <Card
-              className="border-3 border-primary"
+              className="border-3 border-primary card-transition"
               onClick={() => setModalThreeShow(true)}
-              style={{ width: "6rem" }}
+              style={{ width: "5rem" }}
             >
-              <Card.Img variant="top" src={headshot} />
+              <Card.Img variant="top" src={expensesapp} className="portfolio-card-img" />
               <Card.Body className="p-2">
                 <Card.Title className="text-center text-primary">
-                  Example
+                  Expenses App
                 </Card.Title>
               </Card.Body>
             </Card>

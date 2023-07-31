@@ -14,7 +14,7 @@ const ContactCard = (props) => {
   const [linkedinFill, setLinkedinFill] = useState("#FFB800");
 
   const handleMouseOverEmail = () => {
-    setEmailFill("#14FF00"); // Set the fill color to blue on hover (you can change this to any color)
+    setEmailFill("#14FF00");
   };
 
   const handleMouseOverGit = () => {
@@ -26,7 +26,7 @@ const ContactCard = (props) => {
   };
 
   const handleMouseOutEmail = () => {
-    setEmailFill("#FFB800"); // Restore the original fill color when mouse moves out
+    setEmailFill("#FFB800");
   };
 
   const handleMouseOutGit = () => {

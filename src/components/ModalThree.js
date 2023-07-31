@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import CloseButton from "react-bootstrap/CloseButton";
 import Image from "react-bootstrap/Image";
-import headshot from "../imgs/headshot_wigleyr.jpg";
+import expensesapp from "../imgs/expenses-app.png";
 
 const ModalThree = (props) => {
   return (
@@ -19,18 +19,20 @@ const ModalThree = (props) => {
         </Modal.Title>
       </Modal.Header> */}
       <Modal.Body className="p-2">
-        <Image src={headshot} thumbnail className="border-0 p-0" />
+        <Image src={expensesapp} thumbnail className="border-0 p-0" />
         <Modal.Title
           className="border-top mt-1"
           id="contained-modal-title-vcenter"
         >
           Modal Header 3
         </Modal.Title>
-        <h4 className="modal-stack m-0">Centered Modal</h4>
+        <h4 className="modal-stack m-0 title-primary-emphasis">
+          HTML CSS React
+        </h4>
         <p className="modal-content border-0 m-0">
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          A web app that allows users to input an expense, an expense amount,
+          and a date. The inputted data will be sorted into an expense tracker,
+          which can be filtered by year. A monthly graphic is included by year.
         </p>
       </Modal.Body>
       <Modal.Footer
@@ -38,8 +40,10 @@ const ModalThree = (props) => {
         className="border-0 justify-content-between p-2"
       >
         <Button
-          className="btn-info modal-stack border-0 m-0 px-2 py-1"
+          className="btn-info modal-stack border-0 m-0 px-2 py-1 fw-bold"
           onClick={props.onHide}
+          href="#"
+          target="_blank"
         >
           Visit Project
         </Button>

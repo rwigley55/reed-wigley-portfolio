@@ -11,11 +11,12 @@ import ContactCard from "./components/ContactCard";
 function App() {
   return (
     <div className="App">
-      <TitleCard />
-      <SiteNav />
-      <AboutCard />
-      <PortfolioCard />
-      <ContactCard />
+        <TitleCard />
+        <SiteNav />
+        <AboutCard />
+        <PortfolioCard />
+        <ContactCard />
+
     </div>
   );
 }

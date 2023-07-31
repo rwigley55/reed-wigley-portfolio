@@ -23,8 +23,10 @@ const AboutCard = (props) => {
         <Col xs={12} xxl={6}>
           <p className="body-text">
             Lorem ipsum dolor sit amet,{" "}
-            <span className="text-primary-emphasis">consectetur adipiscing elit</span>,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <span className="text-primary-emphasis">
+              consectetur adipiscing elit
+            </span>
+            , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
             Duis ultricies lacus sed turpis{" "}
             <span className="text-secondary">tincidunt id aliquet risus</span>.
@@ -40,7 +42,11 @@ const AboutCard = (props) => {
           </p>
         </Col>
         <Col xs={12} xxl={6}>
-          <Image src={headshot} rounded className={`${styles.headshot} border border-primary`} />
+          <Image
+            src={headshot}
+            rounded
+            className={`${styles.headshot} border border-primary`}
+          />
         </Col>
       </Row>
       <Row className="mt-2">
@@ -101,7 +107,9 @@ const AboutCard = (props) => {
           <Figure className="pe-1 d-inline-flex flex-column align-items-center mb-1">
             <Figure.Image width={75} height={75} src={ga} className="mb-0" />
             <Figure.Caption className="body-text text-center text-primary lh-1">
-              Google<br />Analytics
+              Google
+              <br />
+              Analytics
             </Figure.Caption>
           </Figure>
           <Figure className="pe-1 d-inline-flex flex-column align-items-center mb-1">
