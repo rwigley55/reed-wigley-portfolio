@@ -38,7 +38,7 @@ const ContactCard = (props) => {
   };
 
   return (
-    <Container id="contact">
+    <Container fluid="sm" id="contact">
       <Row className="pt-4">
         <Col>
           <h2 className="text-lowercase">Contact</h2>

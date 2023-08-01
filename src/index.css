@@ -1,6 +1,7 @@
-.container {
-  max-width: 75%;
-}
+/* .container {
+  margin: 0 auto !important;
+  max-width: 95% !important;
+} */
 
 * {
   color: #F5F3F4;
@@ -11,6 +12,12 @@
 body {
   margin: 0;
   background-color: #373737;
+}
+
+@media screen and (max-width: 550px){
+  .title-text {
+    font-size: 0.6rem;
+  }
 }
 
 .bg-primary {

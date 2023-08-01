@@ -27,7 +27,7 @@ const PortfolioCard = (props) => {
           onHide={() => setModalThreeShow(false)}
         />
       </>
-      <Container id="portfolio" className="bg-secondary">
+      <Container fluid="sm" id="portfolio" className="bg-secondary">
         <Row className="pt-4">
           <Col>
             <h2 className="text-lowercase">Portfolio</h2>
