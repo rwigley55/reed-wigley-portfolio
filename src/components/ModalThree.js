@@ -30,7 +30,7 @@ const ModalThree = (props) => {
           HTML CSS React
         </h4>
         <p className="modal-content border-0 m-0">
-          A web app that allows users to input an expense, an expense amount,
+          A web app that allows a user to input an expense, an expense amount,
           and a date. The inputted data will be sorted into an expense tracker,
           which can be filtered by year. A monthly graphic is included by year.
         </p>

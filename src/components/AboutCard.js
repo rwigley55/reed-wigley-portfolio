@@ -22,23 +22,33 @@ const AboutCard = (props) => {
       <Row>
         <Col xs={12} xxl={6}>
           <p className="body-text">
-            Lorem ipsum dolor sit amet,{" "}
-            <span className="text-primary-emphasis">
-              consectetur adipiscing elit
-            </span>
-            , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
-            Duis ultricies lacus sed turpis{" "}
-            <span className="text-secondary">tincidunt id aliquet risus</span>.
-            Risus viverra adipiscing at in tellus integer feugiat scelerisque
-            varius.
-          </p>{" "}
+            I am beginning my journey into the web development world and I am
+            primarily focusing on{" "}
+            <span className="text-primary-emphasis">front-end development</span>
+            . I am constantly looking for new topics to learn and I am extremely
+            motivated to find new avenues that will allow me to kick-start a
+            career in the field. I am very interested in{" "}
+            <span className="text-secondary">
+              building websites and applications
+            </span>{" "}
+            that delight and inform. I would consider myself a curious
+            individual, and I am enjoying the transition into web development. I
+            enjoy work that challenges me to learn something new.
+          </p>
           <p className="body-text">
-            Tempus quam pellentesque nec nam.{" "}
-            <span className="text-secondary">Euismod quis</span> viverra nibh
-            cras. Cursus mattis molestie a iaculis. Nulla facilisi etiam
-            dignissim diam quis enim lobortis scelerisque. Augue neque gravida
-            in fermentum et sollicitudin ac orci.
+            Currently, I primarily work with{" "}
+            <span className="text-primary-emphasis">React.js</span>,{" "}
+            <span className="text-primary-emphasis">JavaScript</span>,{" "}
+            <span className="text-primary-emphasis">CSS</span>,{" "}
+            <span className="text-primary-emphasis">Bootstrap</span>, and{" "}
+            <span className="text-primary-emphasis">HTML</span>. In addition to
+            currently learning front-end technologies, my previous professional
+            experiences have taught me{" "}
+            <span className="text-secondary">SEO</span> best practices. I have
+            qualified experience with{" "}
+            <span className="text-secondary">Google Analytics</span> and various
+            other industry accepted <span className="text-secondary">SEO</span>{" "}
+            tools & resources.
           </p>
         </Col>
         <Col xs={12} xxl={6}>

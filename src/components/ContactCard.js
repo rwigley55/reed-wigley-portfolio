@@ -47,10 +47,9 @@ const ContactCard = (props) => {
       <Row>
         <Col>
           <p className="body-text">
-            Lorem ipsum dolor sit amet,{" "}
-            <span className="text-secondary">consectetur adipiscing elit</span>,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.
+            Let's get in touch! I am looking for a new opportunity to fulfil my
+            aspiration on becoming a front-end developer. Check out my <a href="#" className="text-primary-emphasis">resume</a>{" "}
+            and feel free to contact me via any of the avenues listed below.
           </p>
         </Col>
       </Row>
@@ -76,11 +75,11 @@ const ContactCard = (props) => {
           </a>
           <a href="#">
             <LinkedinSvg
-            width={75}
-            height={75}
-            fill={linkedinFill}
-            onMouseOver={handleMouseOverLinkedin}
-            onMouseOut={handleMouseOutLinkedin}
+              width={75}
+              height={75}
+              fill={linkedinFill}
+              onMouseOver={handleMouseOverLinkedin}
+              onMouseOut={handleMouseOutLinkedin}
             />
           </a>
         </Col>

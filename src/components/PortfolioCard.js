@@ -36,18 +36,13 @@ const PortfolioCard = (props) => {
         <Row>
           <Col>
             <p className="body-text">
-              Lorem ipsum dolor sit amet,{" "}
-              <span className="text-secondary">
-                consectetur adipiscing elit
-              </span>
-              , sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Rhoncus aenean vel elit scelerisque mauris pellentesque
-              pulvinar. Duis ultricies lacus sed turpis{" "}
-              <span className="text-primary-emphasis">
-                tincidunt id aliquet risus
-              </span>
-              . Risus viverra adipiscing at in tellus integer feugiat
-              scelerisque varius.
+              Most of my current projects are built with{" "}
+              <span className="text-primary-emphasis">React.js</span>. I strive
+              to create useful applications that are{" "}
+              <span className="text-secondary">dynamic</span>,{" "}
+              <span className="text-secondary">responsive</span>,{" "}
+              <span className="text-secondary">intuitive</span>, and{" "}
+              <span className="text-secondary">pleasing</span>.
             </p>
           </Col>
         </Row>
@@ -58,7 +53,11 @@ const PortfolioCard = (props) => {
               onClick={() => setModalOneShow(true)}
               style={{ width: "5rem" }}
             >
-              <Card.Img variant="top" src={tipcalc} className="portfolio-card-img" />
+              <Card.Img
+                variant="top"
+                src={tipcalc}
+                className="portfolio-card-img"
+              />
               <Card.Body className="p-2">
                 <Card.Title className="text-center text-primary">
                   Tip Calculator
@@ -72,7 +71,11 @@ const PortfolioCard = (props) => {
               onClick={() => setModalTwoShow(true)}
               style={{ width: "5rem" }}
             >
-              <Card.Img variant="top" src={adduser} className="portfolio-card-img" />
+              <Card.Img
+                variant="top"
+                src={adduser}
+                className="portfolio-card-img"
+              />
               <Card.Body className="p-2">
                 <Card.Title className="text-center text-primary">
                   Add User Demo
@@ -86,7 +89,11 @@ const PortfolioCard = (props) => {
               onClick={() => setModalThreeShow(true)}
               style={{ width: "5rem" }}
             >
-              <Card.Img variant="top" src={expensesapp} className="portfolio-card-img" />
+              <Card.Img
+                variant="top"
+                src={expensesapp}
+                className="portfolio-card-img"
+              />
               <Card.Body className="p-2">
                 <Card.Title className="text-center text-primary">
                   Expenses App
