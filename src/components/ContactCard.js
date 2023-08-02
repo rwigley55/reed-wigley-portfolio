@@ -55,7 +55,7 @@ const ContactCard = (props) => {
       </Row>
       <Row className="mb-3">
         <Col className="d-flex justify-content-center">
-          <a href="#">
+          <a href="mailto:rwigley55@gmail.com">
             <EmailSvg
               width={75}
               height={75}
@@ -64,7 +64,7 @@ const ContactCard = (props) => {
               onMouseOut={handleMouseOutEmail}
             />
           </a>
-          <a href="#">
+          <a href="https://github.com/rwigley55">
             <GithubSvg
               width={75}
               height={75}
@@ -73,7 +73,7 @@ const ContactCard = (props) => {
               onMouseOut={handleMouseOutGit}
             />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/reedwigley/">
             <LinkedinSvg
               width={75}
               height={75}

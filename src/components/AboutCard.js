@@ -60,7 +60,7 @@ const AboutCard = (props) => {
         </Col>
       </Row>
       <Row className="mt-2">
-        <Col xxl={8}>
+        <Col className="centerFigures justify-content-xxl-start" xxl={8}>
           <Figure className="pe-1 d-inline-flex flex-column align-items-center">
             <Figure.Image width={75} height={75} src={html} className="mb-0" />
             <Figure.Caption className="body-text text-center text-primary lh-1">
@@ -113,7 +113,7 @@ const AboutCard = (props) => {
             </Figure.Caption>
           </Figure>
         </Col>
-        <Col className="d-inline-flex justify-content-xxl-end">
+        <Col className="d-inline-flex centerFigures justify-content-xxl-end">
           <Figure className="pe-1 d-inline-flex flex-column align-items-center mb-1">
             <Figure.Image width={75} height={75} src={ga} className="mb-0" />
             <Figure.Caption className="body-text text-center text-primary lh-1">
