@@ -182,3 +182,14 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.resume-background {
+  background-color: #f5f3f4;
+}
+
+.resume-header{
+  font-size: 0.45rem;
+}
+.resume-text {
+  color: black;
+}
