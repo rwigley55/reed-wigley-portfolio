@@ -187,9 +187,16 @@ h2 {
   background-color: #f5f3f4;
 }
 
-.resume-header{
+.resume-header {
   font-size: 0.45rem;
 }
+
+.resume-header-character {
+  font-size: 0.45rem;
+  color: #FFB800;
+}
+
 .resume-text {
   color: black;
+  font-size: 0.4rem;
 }
