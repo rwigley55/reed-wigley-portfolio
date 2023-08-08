@@ -1,15 +1,45 @@
 import React, { Fragment } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, ListGroup } from "react-bootstrap";
 
 const Resume = (props) => {
   return (
     <Fragment>
       <Container className="">
         <Row>
-          <Col>
-            <h1 className="text-center title-primary-emphasis">Reed Wigley</h1>
-            <h2 className="text-center">Front-end Developer</h2>
+          <Col className="ps-0">
+            <h1 className="resume-title">Reed Wigley</h1>
+            <h2 className="">Front-end Developer</h2>
           </Col>
+          <Col xs={3}>
+            <ListGroup className="p-0 border border-dot">
+              <ListGroup.Item action className="bg-primary resume-link p-0 border-0 text-center box-link" href="#">
+                return
+              </ListGroup.Item>
+              <ListGroup.Item action className="bg-primary resume-link p-0 border-0 text-center box-link" href="#">
+                download
+              </ListGroup.Item>
+
+            </ListGroup>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="text-center">
+              <a className="resume-link mx-1" href="#">
+                github.com/reed
+              </a>
+              <span className="resume-text">•</span>
+              <a className="resume-link mx-1" href="#">
+                linkedin.com/reed
+              </a>
+              <span className="resume-text">•</span>
+              <a className="resume-link mx-1" href="#">
+                website.com/reed
+              </a>
+              <span className="resume-text">•</span>
+              <a className="resume-link mx-1" href="#">
+                email@gmail.com
+              </a>
+              </Col>
         </Row>
       </Container>
       <Container className="resume-background rounded-2 mb-1">
@@ -94,8 +124,8 @@ const Resume = (props) => {
           <Col>
             <ul className="ps-2 mb-2">
               <li className="resume-text lh-sm">
-                Developed website SEO and paid search strategies using Google AdWords and
-                Keyword Planner.
+                Developed website SEO and paid search strategies using Google
+                AdWords and Keyword Planner.
               </li>
               <li className="resume-text lh-sm">
                 Digital content creation for social media and advertising
@@ -182,7 +212,9 @@ const Resume = (props) => {
         </Row>
         <Row>
           <Col>
-            <h4 className="resume-text resume-header mb-0 fw-bold">Hutong School</h4>
+            <h4 className="resume-text resume-header mb-0 fw-bold">
+              Hutong School
+            </h4>
           </Col>
           <Col>
             <h4 className="resume-text resume-header text-end mb-0">
@@ -194,7 +226,9 @@ const Resume = (props) => {
         </Row>
         <Row>
           <Col>
-            <p className="resume-text mb-1">Chinese Mandarin • HSK II certified</p>
+            <p className="resume-text mb-1">
+              Chinese Mandarin • HSK II certified
+            </p>
           </Col>
         </Row>
       </Container>

@@ -200,3 +200,35 @@ h2 {
   color: black;
   font-size: 0.4rem;
 }
+
+.resume-title {
+  color: #14FF00;
+  font-size: 1.1rem;
+}
+
+.resume-link {
+  font-size: 0.45rem;
+  color: white !important;
+  text-decoration: none;
+}
+
+.box-link {
+  color: #6b6b6b !important;
+  transition: color 0.5s ease-out !important;
+}
+
+.box-link:hover {
+  color: white !important;
+  transition: color 1s ease !important;
+}
+
+.border-dot {
+  border: 4px dotted !important;
+  border-color: #6b6b6b !important;
+  transition: border-color 0.5s ease-out !important;
+}
+
+.border-dot:hover {
+  border-color: white !important;
+  transition: border-color 0.5s ease !important;
+}
