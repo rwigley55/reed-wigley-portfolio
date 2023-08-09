@@ -11,7 +11,7 @@ const Resume = (props) => {
             <h2 className="">Front-end Developer</h2>
           </Col>
           <Col xs={3}>
-            <ListGroup className="p-0 border border-dot">
+            <ListGroup className="p-0 border border-dot mt-2">
               <ListGroup.Item action className="bg-primary resume-link p-0 border-0 text-center box-link" href="#">
                 return
               </ListGroup.Item>
@@ -27,15 +27,15 @@ const Resume = (props) => {
               <a className="resume-link mx-1" href="#">
                 github.com/reed
               </a>
-              <span className="resume-text">•</span>
+              <span className="resume-separator">•</span>
               <a className="resume-link mx-1" href="#">
                 linkedin.com/reed
               </a>
-              <span className="resume-text">•</span>
+              <span className="resume-separator">•</span>
               <a className="resume-link mx-1" href="#">
                 website.com/reed
               </a>
-              <span className="resume-text">•</span>
+              <span className="resume-separator">•</span>
               <a className="resume-link mx-1" href="#">
                 email@gmail.com
               </a>
@@ -46,7 +46,7 @@ const Resume = (props) => {
         <Row>
           <Col>
             <h3 className="resume-text resume-header mb-1 fw-bold mt-1">
-              <span className="resume-header-character">></span> Summary
+              <span className="resume-header-character">{'>'}</span> Summary
             </h3>
             <p className="resume-text lh-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -60,7 +60,7 @@ const Resume = (props) => {
         <Row>
           <Col>
             <h3 className="resume-text resume-header mb-1 fw-bold">
-              <span className="resume-header-character">></span> Experience
+              <span className="resume-header-character">{'>'}</span> Experience
             </h3>
           </Col>
         </Row>
@@ -145,7 +145,7 @@ const Resume = (props) => {
         <Row>
           <Col>
             <h3 className="resume-text resume-header mb-1 fw-bold">
-              <span className="resume-header-character">></span> Skills
+              <span className="resume-header-character">{'>'}</span> Skills
             </h3>
           </Col>
         </Row>
@@ -185,48 +185,48 @@ const Resume = (props) => {
         <Row>
           <Col>
             <h3 className="resume-text resume-header mb-1 fw-bold">
-              <span className="resume-header-character">></span> Education
+              <span className="resume-header-character">{'>'}</span> Education
             </h3>
           </Col>
         </Row>
         <Row>
           <Col>
-            <h4 className="resume-text resume-header mb-0 fw-bold">
+            <h4 className="resume-text resume-header mb-0 lh-sm fw-bold">
               University of Connecticut
             </h4>
           </Col>
           <Col>
-            <h4 className="resume-text resume-header text-end mb-0">
-              <span className="resume-header-character fw-bold">(</span>{" "}
+            <h4 className="resume-text resume-header text-end lh-sm mb-0">
+              <span className="resume-header-character lh-sm mb-0 fw-bold">(</span>{" "}
               2012-2016{" "}
-              <span className="resume-header-character fw-bold">)</span>
+              <span className="resume-header-character lh-sm mb-0 fw-bold">)</span>
             </h4>
           </Col>
         </Row>
         <Row>
           <Col>
-            <p className="resume-text mb-1">
+            <p className="resume-text mb-1 lh-sm">
               Bachelor of Sciences • International Business Management
             </p>
           </Col>
         </Row>
         <Row>
           <Col>
-            <h4 className="resume-text resume-header mb-0 fw-bold">
+            <h4 className="resume-text resume-header mb-0 fw-bold lh-sm">
               Hutong School
             </h4>
           </Col>
           <Col>
-            <h4 className="resume-text resume-header text-end mb-0">
-              <span className="resume-header-character fw-bold">(</span>{" "}
+            <h4 className="resume-text resume-header text-end mb-0 lh-sm">
+              <span className="resume-header-character fw-bold mb-0 lh-sm">(</span>{" "}
               2017-2019{" "}
-              <span className="resume-header-character fw-bold">)</span>
+              <span className="resume-header-character fw-bold mb-0 lh-sm">)</span>
             </h4>
           </Col>
         </Row>
         <Row>
           <Col>
-            <p className="resume-text mb-1">
+            <p className="resume-text mb-1 lh-sm">
               Chinese Mandarin • HSK II certified
             </p>
           </Col>
