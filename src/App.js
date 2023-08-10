@@ -12,12 +12,11 @@ import Resume from "./resume";
 function App() {
   return (
     <div className="App">
-        <TitleCard />
-        <SiteNav />
-        <AboutCard />
-        <PortfolioCard />
-        <ContactCard />
-        <Resume />
+      <TitleCard />
+      <SiteNav />
+      <AboutCard />
+      <PortfolioCard />
+      <ContactCard />
     </div>
   );
 }

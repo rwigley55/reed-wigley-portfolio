@@ -6,47 +6,54 @@ const Resume = (props) => {
     <Fragment>
       <Container className="">
         <Row>
-          <Col className="ps-0">
-            <h1 className="resume-title">Reed Wigley</h1>
-            <h2 className="">Front-end Developer</h2>
+          <Col className="px-0">
+            <h1 className="resume-title mb-0 text-center text-lg-start">Reed Wigley</h1>
+            <h2 className="mb-0 text-center text-lg-start">Front-end Developer</h2>
           </Col>
-          <Col xs={3}>
+          <Col lg={3}>
             <ListGroup className="p-0 border border-dot mt-2">
-              <ListGroup.Item action className="bg-primary resume-link p-0 border-0 text-center box-link" href="#">
+              <ListGroup.Item
+                action
+                className="bg-primary resume-link p-0 border-0 text-center box-link"
+                href="#"
+              >
                 return
               </ListGroup.Item>
-              <ListGroup.Item action className="bg-primary resume-link p-0 border-0 text-center box-link" href="#">
+              <ListGroup.Item
+                action
+                className="bg-primary resume-link p-0 border-0 text-center box-link"
+                href="#"
+              >
                 download
               </ListGroup.Item>
-
             </ListGroup>
           </Col>
         </Row>
         <Row>
           <Col className="text-center">
-              <a className="resume-link mx-1" href="#">
-                github.com/reed
-              </a>
-              <span className="resume-separator">•</span>
-              <a className="resume-link mx-1" href="#">
-                linkedin.com/reed
-              </a>
-              <span className="resume-separator">•</span>
-              <a className="resume-link mx-1" href="#">
-                website.com/reed
-              </a>
-              <span className="resume-separator">•</span>
-              <a className="resume-link mx-1" href="#">
-                email@gmail.com
-              </a>
-              </Col>
+            <a className="resume-link mx-1" href="#">
+              github.com/reed
+            </a>
+            <span className="resume-separator">•</span>
+            <a className="resume-link mx-1" href="#">
+              linkedin.com/reed
+            </a>
+            <span className="resume-separator">•</span>
+            <a className="resume-link mx-1" href="#">
+              website.com/reed
+            </a>
+            <span className="resume-separator">•</span>
+            <a className="resume-link mx-1" href="#">
+              email@gmail.com
+            </a>
+          </Col>
         </Row>
       </Container>
       <Container className="resume-background rounded-2 mb-1">
         <Row>
           <Col>
             <h3 className="resume-text resume-header mb-1 fw-bold mt-1">
-              <span className="resume-header-character">{'>'}</span> Summary
+              <span className="resume-header-character">{">"}</span> Summary
             </h3>
             <p className="resume-text lh-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -60,7 +67,7 @@ const Resume = (props) => {
         <Row>
           <Col>
             <h3 className="resume-text resume-header mb-1 fw-bold">
-              <span className="resume-header-character">{'>'}</span> Experience
+              <span className="resume-header-character">{">"}</span> Experience
             </h3>
           </Col>
         </Row>
@@ -145,7 +152,7 @@ const Resume = (props) => {
         <Row>
           <Col>
             <h3 className="resume-text resume-header mb-1 fw-bold">
-              <span className="resume-header-character">{'>'}</span> Skills
+              <span className="resume-header-character">{">"}</span> Skills
             </h3>
           </Col>
         </Row>
@@ -185,7 +192,7 @@ const Resume = (props) => {
         <Row>
           <Col>
             <h3 className="resume-text resume-header mb-1 fw-bold">
-              <span className="resume-header-character">{'>'}</span> Education
+              <span className="resume-header-character">{">"}</span> Education
             </h3>
           </Col>
         </Row>
@@ -197,9 +204,13 @@ const Resume = (props) => {
           </Col>
           <Col>
             <h4 className="resume-text resume-header text-end lh-sm mb-0">
-              <span className="resume-header-character lh-sm mb-0 fw-bold">(</span>{" "}
+              <span className="resume-header-character lh-sm mb-0 fw-bold">
+                (
+              </span>{" "}
               2012-2016{" "}
-              <span className="resume-header-character lh-sm mb-0 fw-bold">)</span>
+              <span className="resume-header-character lh-sm mb-0 fw-bold">
+                )
+              </span>
             </h4>
           </Col>
         </Row>
@@ -218,9 +229,13 @@ const Resume = (props) => {
           </Col>
           <Col>
             <h4 className="resume-text resume-header text-end mb-0 lh-sm">
-              <span className="resume-header-character fw-bold mb-0 lh-sm">(</span>{" "}
+              <span className="resume-header-character fw-bold mb-0 lh-sm">
+                (
+              </span>{" "}
               2017-2019{" "}
-              <span className="resume-header-character fw-bold mb-0 lh-sm">)</span>
+              <span className="resume-header-character fw-bold mb-0 lh-sm">
+                )
+              </span>
             </h4>
           </Col>
         </Row>

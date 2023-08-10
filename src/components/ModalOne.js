@@ -39,7 +39,7 @@ const ModalOne = (props) => {
         className="border-0 justify-content-between p-2"
       >
         <Button
-          className="btn-info modal-stack border-0 m-0 px-2 py-1 fw-bold"
+          className="btn-info modal-stack border-0 m-0 px-1 py-1 fw-bold"
           onClick={props.onHide}
           href="https://rwigley55.github.io/tip-calculator/"
           target="_blank"
