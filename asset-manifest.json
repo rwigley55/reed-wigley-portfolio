@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/reed-wigley-portfolio/static/css/main.4cfb808c.css",
+    "main.js": "/reed-wigley-portfolio/static/js/main.77d5a2b4.js",
+    "static/js/787.bfcd4665.chunk.js": "/reed-wigley-portfolio/static/js/787.bfcd4665.chunk.js",
+    "static/media/headshot_wigleyr.jpg": "/reed-wigley-portfolio/static/media/headshot_wigleyr.2fc204309abe70c8e862.jpg",
+    "static/media/expenses-app.png": "/reed-wigley-portfolio/static/media/expenses-app.cdc56b531302879f431d.png",
+    "static/media/tip-calculator.png": "/reed-wigley-portfolio/static/media/tip-calculator.5992f9261bcbfae38f2c.png",
+    "static/media/logo.svg": "/reed-wigley-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/github.svg": "/reed-wigley-portfolio/static/media/github.40488ef29205e2363710dcf84cf1d010.svg",
+    "static/media/react.svg": "/reed-wigley-portfolio/static/media/react.41f682c30cd709efaa7b5724a9b5ce03.svg",
+    "static/media/javascript.svg": "/reed-wigley-portfolio/static/media/javascript.79e21c06fd7a9412c084a8d9d580094c.svg",
+    "static/media/bootstrap.svg": "/reed-wigley-portfolio/static/media/bootstrap.f64f55f89a39f8e41f33736974a19e4b.svg",
+    "static/media/google-analytics.svg": "/reed-wigley-portfolio/static/media/google-analytics.b8f7be984a16f41da920eeedf0dcd4ba.svg",
+    "static/media/html.svg": "/reed-wigley-portfolio/static/media/html.809598b34b1f8015d08afad820974293.svg",
+    "static/media/css.svg": "/reed-wigley-portfolio/static/media/css.cd08c309aaa0ee323894646d5017ae85.svg",
+    "static/media/google-tag-manager.svg": "/reed-wigley-portfolio/static/media/google-tag-manager.85577719287cfa9c2554d36110e5dd2f.svg",
+    "index.html": "/reed-wigley-portfolio/index.html",
+    "static/media/linkedin.svg": "/reed-wigley-portfolio/static/media/linkedin.c42f7d342f30e3992a64c3c138ebedbc.svg",
+    "static/media/email.svg": "/reed-wigley-portfolio/static/media/email.64d7a85f260bc2428b0f79770966ad81.svg",
+    "static/media/closebutton.svg": "/reed-wigley-portfolio/static/media/closebutton.cc96ba22c7f52c18ce4a.svg",
+    "static/media/tailwind.svg": "/reed-wigley-portfolio/static/media/tailwind.d66c5e391938fd9ecc7986dc9de39d05.svg",
+    "static/media/navbar-icon.svg": "/reed-wigley-portfolio/static/media/navbar-icon.eea673189315391b1ef4.svg",
+    "main.4cfb808c.css.map": "/reed-wigley-portfolio/static/css/main.4cfb808c.css.map",
+    "main.77d5a2b4.js.map": "/reed-wigley-portfolio/static/js/main.77d5a2b4.js.map",
+    "787.bfcd4665.chunk.js.map": "/reed-wigley-portfolio/static/js/787.bfcd4665.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cfb808c.css",
+    "static/js/main.77d5a2b4.js"
+  ]
+}
