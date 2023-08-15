@@ -39,7 +39,8 @@ const SiteNav = (props) => {
           </Nav.Link>
           <Nav.Link
             className={`${styles.small} text-lowercase text-secondary-emphasis p-1 ms-auto`}
-            href="#link"
+            href="https://rwigley55.github.io/resume/"
+            target="_blank"
           >
             Resume
           </Nav.Link>

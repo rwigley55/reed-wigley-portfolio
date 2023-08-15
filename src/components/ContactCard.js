@@ -48,7 +48,7 @@ const ContactCard = (props) => {
         <Col>
           <p className="body-text">
             Let's get in touch! I am looking for a new opportunity to fulfil my
-            aspiration on becoming a front-end developer. Check out my <a href="#" className="text-primary-emphasis">resume</a>{" "}
+            aspiration on becoming a front-end developer. Check out my <a href="https://rwigley55.github.io/resume/" target="_blank" className="text-primary-emphasis">resume</a>{" "}
             and feel free to contact me via any of the avenues listed below.
           </p>
         </Col>
