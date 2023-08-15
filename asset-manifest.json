@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reed-wigley-portfolio/static/css/main.4cfb808c.css",
-    "main.js": "/reed-wigley-portfolio/static/js/main.77d5a2b4.js",
+    "main.js": "/reed-wigley-portfolio/static/js/main.122a703c.js",
     "static/js/787.bfcd4665.chunk.js": "/reed-wigley-portfolio/static/js/787.bfcd4665.chunk.js",
     "static/media/headshot_wigleyr.jpg": "/reed-wigley-portfolio/static/media/headshot_wigleyr.2fc204309abe70c8e862.jpg",
     "static/media/expenses-app.png": "/reed-wigley-portfolio/static/media/expenses-app.cdc56b531302879f431d.png",
@@ -22,11 +22,11 @@
     "static/media/tailwind.svg": "/reed-wigley-portfolio/static/media/tailwind.d66c5e391938fd9ecc7986dc9de39d05.svg",
     "static/media/navbar-icon.svg": "/reed-wigley-portfolio/static/media/navbar-icon.eea673189315391b1ef4.svg",
     "main.4cfb808c.css.map": "/reed-wigley-portfolio/static/css/main.4cfb808c.css.map",
-    "main.77d5a2b4.js.map": "/reed-wigley-portfolio/static/js/main.77d5a2b4.js.map",
+    "main.122a703c.js.map": "/reed-wigley-portfolio/static/js/main.122a703c.js.map",
     "787.bfcd4665.chunk.js.map": "/reed-wigley-portfolio/static/js/787.bfcd4665.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cfb808c.css",
-    "static/js/main.77d5a2b4.js"
+    "static/js/main.122a703c.js"
   ]
 }
