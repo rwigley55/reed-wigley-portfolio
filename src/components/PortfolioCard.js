@@ -27,8 +27,8 @@ const PortfolioCard = (props) => {
           onHide={() => setModalThreeShow(false)}
         />
       </>
-      <Container fluid="sm" id="portfolio" className="bg-secondary">
-        <Row className="pt-4">
+      <Container as="section" fluid="sm" id="portfolio" className="bg-secondary">
+        <Row as="header" className="pt-4">
           <Col>
             <h2 className="text-lowercase">Portfolio</h2>
           </Col>
@@ -37,12 +37,12 @@ const PortfolioCard = (props) => {
           <Col>
             <p className="body-text">
               Most of my current projects are built with{" "}
-              <span className="text-primary-emphasis">React.js</span>. I strive
+              <mark className="text-primary-emphasis">React.js</mark>. I strive
               to create useful applications that are{" "}
-              <span className="text-secondary">dynamic</span>,{" "}
-              <span className="text-secondary">responsive</span>,{" "}
-              <span className="text-secondary">intuitive</span>, and{" "}
-              <span className="text-secondary">pleasing</span>.
+              <mark className="text-secondary">dynamic</mark>,{" "}
+              <mark className="text-secondary">responsive</mark>,{" "}
+              <mark className="text-secondary">intuitive</mark>, and{" "}
+              <mark className="text-secondary">pleasing</mark>.
             </p>
           </Col>
         </Row>
@@ -52,6 +52,7 @@ const PortfolioCard = (props) => {
               className="border-3 border-primary card-transition"
               onClick={() => setModalOneShow(true)}
               style={{ width: "5rem" }}
+              as="figure"
             >
               <Card.Img
                 variant="top"
@@ -59,7 +60,7 @@ const PortfolioCard = (props) => {
                 className="portfolio-card-img"
               />
               <Card.Body className="p-2">
-                <Card.Title className="text-center text-primary">
+                <Card.Title as="h5" className="text-center text-primary">
                   Tip Calculator
                 </Card.Title>
               </Card.Body>
@@ -70,6 +71,7 @@ const PortfolioCard = (props) => {
               className="border-3 border-primary card-transition"
               onClick={() => setModalTwoShow(true)}
               style={{ width: "5rem" }}
+              as="figure"
             >
               <Card.Img
                 variant="top"
@@ -77,7 +79,7 @@ const PortfolioCard = (props) => {
                 className="portfolio-card-img"
               />
               <Card.Body className="p-2">
-                <Card.Title className="text-center text-primary">
+                <Card.Title as="h5" className="text-center text-primary">
                   Add User Demo
                 </Card.Title>
               </Card.Body>
@@ -88,6 +90,7 @@ const PortfolioCard = (props) => {
               className="border-3 border-primary card-transition"
               onClick={() => setModalThreeShow(true)}
               style={{ width: "5rem" }}
+              as="figure"
             >
               <Card.Img
                 variant="top"
@@ -95,7 +98,7 @@ const PortfolioCard = (props) => {
                 className="portfolio-card-img"
               />
               <Card.Body className="p-2">
-                <Card.Title className="text-center text-primary">
+                <Card.Title as="h5" className="text-center text-primary">
                   Expenses App
                 </Card.Title>
               </Card.Body>

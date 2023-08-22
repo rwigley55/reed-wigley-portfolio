@@ -38,8 +38,8 @@ const ContactCard = (props) => {
   };
 
   return (
-    <Container fluid="sm" id="contact">
-      <Row className="pt-4">
+    <Container as="section" fluid="sm" id="contact">
+      <Row as="header" className="pt-4">
         <Col>
           <h2 className="text-lowercase">Contact</h2>
         </Col>

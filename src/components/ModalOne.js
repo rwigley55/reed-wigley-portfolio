@@ -23,6 +23,7 @@ const ModalOne = (props) => {
         <Modal.Title
           className="border-top mt-1"
           id="contained-modal-title-vcenter"
+          as="h3"
         >
           Tip Calculator
         </Modal.Title>

@@ -13,8 +13,8 @@ import gtm from "../svg/google-tag-manager.svg";
 
 const AboutCard = (props) => {
   return (
-    <Container id="about" className="bg-primary">
-      <Row className="pt-4">
+    <Container as="section" id="about" className="bg-primary">
+      <Row as="header" className="pt-4">
         <Col>
           <h2 className="text-lowercase">About</h2>
         </Col>
@@ -24,30 +24,30 @@ const AboutCard = (props) => {
           <p className="body-text">
             I am beginning my journey into the web development world and I am
             primarily focusing on{" "}
-            <span className="text-primary-emphasis">front-end development</span>
+            <mark className="text-primary-emphasis">front-end development</mark>
             . I am constantly looking for new topics to learn and I am extremely
             motivated to find new avenues that will allow me to kick-start a
             career in the field. I am very interested in{" "}
-            <span className="text-secondary">
+            <mark className="text-secondary">
               building websites and applications
-            </span>{" "}
+            </mark>{" "}
             that delight and inform. I would consider myself a curious
             individual, and I am enjoying the transition into web development. I
             enjoy work that challenges me to learn something new.
           </p>
           <p className="body-text">
             Currently, I primarily work with{" "}
-            <span className="text-primary-emphasis">React.js</span>,{" "}
-            <span className="text-primary-emphasis">JavaScript</span>,{" "}
-            <span className="text-primary-emphasis">CSS</span>,{" "}
-            <span className="text-primary-emphasis">Bootstrap</span>, and{" "}
-            <span className="text-primary-emphasis">HTML</span>. In addition to
+            <mark className="text-primary-emphasis">React.js</mark>,{" "}
+            <mark className="text-primary-emphasis">JavaScript</mark>,{" "}
+            <mark className="text-primary-emphasis">CSS</mark>,{" "}
+            <mark className="text-primary-emphasis">Bootstrap</mark>, and{" "}
+            <mark className="text-primary-emphasis">HTML</mark>. In addition to
             currently learning front-end technologies, my previous professional
             experiences have taught me{" "}
-            <span className="text-secondary">SEO</span> best practices. I have
+            <mark className="text-secondary">SEO</mark> best practices. I have
             qualified experience with{" "}
-            <span className="text-secondary">Google Analytics</span> and various
-            other industry accepted <span className="text-secondary">SEO</span>{" "}
+            <mark className="text-secondary">Google Analytics</mark> and various
+            other industry accepted <mark className="text-secondary">SEO</mark>{" "}
             tools & resources.
           </p>
         </Col>

@@ -23,6 +23,7 @@ const ModalTwo = (props) => {
         <Modal.Title
           className="border-top mt-1"
           id="contained-modal-title-vcenter"
+          as="h3"
         >
           Add User Demo
         </Modal.Title>

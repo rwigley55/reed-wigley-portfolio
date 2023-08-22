@@ -23,8 +23,9 @@ const ModalThree = (props) => {
         <Modal.Title
           className="border-top mt-1"
           id="contained-modal-title-vcenter"
+          as="h3"
         >
-          Modal Header 3
+          Expenses App
         </Modal.Title>
         <h4 className="modal-stack m-0 title-primary-emphasis">
           HTML CSS React
