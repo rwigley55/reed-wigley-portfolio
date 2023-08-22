@@ -38,7 +38,7 @@ const ModalTwo = (props) => {
         <Button
           className="btn-info modal-stack border-0 m-0 px-1 py-1 fw-bold"
           onClick={props.onHide}
-          href="#"
+          href="https://rwigley55.github.io/add-user-demo/"
           target="_blank"
         >
           Visit Project
