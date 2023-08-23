@@ -54,6 +54,15 @@ a.text-primary:hover {
   font-size: 0.4rem;
 }
 
+a.text-primary-emphasis {
+  transition: color 0.5s ease;
+  text-decoration: none;
+}
+
+a.text-primary-emphasis:hover {
+  color: #FFB800 !important; 
+}
+
 .text-secondary-emphasis {
   color: #FFB800 !important;
   font-size: 0.4rem;
