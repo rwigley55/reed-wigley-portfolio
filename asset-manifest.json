@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reed-wigley-portfolio/static/css/main.7dd13640.css",
-    "main.js": "/reed-wigley-portfolio/static/js/main.c8195f71.js",
+    "main.js": "/reed-wigley-portfolio/static/js/main.11d6ebe7.js",
     "static/js/787.bfcd4665.chunk.js": "/reed-wigley-portfolio/static/js/787.bfcd4665.chunk.js",
     "static/media/headshot_wigleyr.jpg": "/reed-wigley-portfolio/static/media/headshot_wigleyr.2fc204309abe70c8e862.jpg",
     "static/media/expenses-app.png": "/reed-wigley-portfolio/static/media/expenses-app.cdc56b531302879f431d.png",
@@ -15,18 +15,18 @@
     "static/media/html.svg": "/reed-wigley-portfolio/static/media/html.809598b34b1f8015d08afad820974293.svg",
     "static/media/css.svg": "/reed-wigley-portfolio/static/media/css.cd08c309aaa0ee323894646d5017ae85.svg",
     "static/media/google-tag-manager.svg": "/reed-wigley-portfolio/static/media/google-tag-manager.85577719287cfa9c2554d36110e5dd2f.svg",
-    "index.html": "/reed-wigley-portfolio/index.html",
     "static/media/linkedin.svg": "/reed-wigley-portfolio/static/media/linkedin.c42f7d342f30e3992a64c3c138ebedbc.svg",
+    "index.html": "/reed-wigley-portfolio/index.html",
     "static/media/email.svg": "/reed-wigley-portfolio/static/media/email.64d7a85f260bc2428b0f79770966ad81.svg",
     "static/media/closebutton.svg": "/reed-wigley-portfolio/static/media/closebutton.cc96ba22c7f52c18ce4a.svg",
     "static/media/tailwind.svg": "/reed-wigley-portfolio/static/media/tailwind.d66c5e391938fd9ecc7986dc9de39d05.svg",
     "static/media/navbar-icon.svg": "/reed-wigley-portfolio/static/media/navbar-icon.eea673189315391b1ef4.svg",
     "main.7dd13640.css.map": "/reed-wigley-portfolio/static/css/main.7dd13640.css.map",
-    "main.c8195f71.js.map": "/reed-wigley-portfolio/static/js/main.c8195f71.js.map",
+    "main.11d6ebe7.js.map": "/reed-wigley-portfolio/static/js/main.11d6ebe7.js.map",
     "787.bfcd4665.chunk.js.map": "/reed-wigley-portfolio/static/js/787.bfcd4665.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7dd13640.css",
-    "static/js/main.c8195f71.js"
+    "static/js/main.11d6ebe7.js"
   ]
 }
