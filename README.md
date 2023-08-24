@@ -6,5 +6,5 @@ Thanks for visiting!
 
 ## Contact
 
-rwigley55@gmail.com
-linkedin.com/in/reedwigley/
+- rwigley55@gmail.com
+- [linkedin.com/in/reedwigley/](https://www.linkedin.com/in/reedwigley/)
