@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import headshot from "../imgs/headshot_wigleyr.jpg";
 import tipcalc from "../imgs/tip-calculator.png";
-import adduser from "../imgs/add-user-demo.png";
 import expensesapp from "../imgs/expenses-app.png";
+import spacetourism from "../imgs/space-tourism-website.png";
 import ModalOne from "./ModalOne";
 import ModalTwo from "./ModalTwo";
 import ModalThree from "./ModalThree";
@@ -27,7 +27,12 @@ const PortfolioCard = (props) => {
           onHide={() => setModalThreeShow(false)}
         />
       </>
-      <Container as="section" fluid="sm" id="portfolio" className="bg-secondary">
+      <Container
+        as="section"
+        fluid="sm"
+        id="portfolio"
+        className="bg-secondary"
+      >
         <Row as="header" className="pt-4">
           <Col>
             <h2 className="text-lowercase">Portfolio</h2>
@@ -75,12 +80,12 @@ const PortfolioCard = (props) => {
             >
               <Card.Img
                 variant="top"
-                src={adduser}
+                src={spacetourism}
                 className="portfolio-card-img"
               />
               <Card.Body className="p-2">
                 <Card.Title as="h5" className="text-center text-primary">
-                  Add User Demo
+                  Space Tourism
                 </Card.Title>
               </Card.Body>
             </Card>

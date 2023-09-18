@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import CloseButton from "react-bootstrap/CloseButton";
 import Image from "react-bootstrap/Image";
-import adduser from "../imgs/add-user-demo.png";
+import spacetourism from "../imgs/space-tourism-website.png";
 
 const ModalTwo = (props) => {
   return (
@@ -19,17 +19,25 @@ const ModalTwo = (props) => {
         </Modal.Title>
       </Modal.Header> */}
       <Modal.Body className="p-2">
-        <Image src={adduser} thumbnail className="border-0 p-0" />
+        <Image src={spacetourism} thumbnail className="border-0 p-0" />
         <Modal.Title
           className="border-top mt-1"
           id="contained-modal-title-vcenter"
           as="h3"
         >
-          Add User Demo
+          Space Tourism Website
         </Modal.Title>
-        <h4 className="modal-stack m-0 title-primary-emphasis">HTML CSS React</h4>
+        <h4 className="modal-stack m-0 title-primary-emphasis">
+          HTML CSS Javascript
+        </h4>
         <p className="modal-content border-0 m-0">
-          A demo project that shows basic understanding of React hooks, managing state, rendering conditional content, event listening, and styling components.
+          This demo project showcases a fictional website of a company offering
+          space tourism. This project is built with an understanding of semantic
+          HTML5 markup, custom CSS properties, CSS flexbox, CSS grid, and
+          mobile-first workflow. The website is optimally styled for three
+          different screen sizes and includes hover states for all interactive
+          elements. Additionally, each content page includes tabs that toggle
+          different content.
         </p>
       </Modal.Body>
       <Modal.Footer
@@ -39,8 +47,9 @@ const ModalTwo = (props) => {
         <Button
           className="btn-info modal-stack border-0 m-0 px-1 py-1 fw-bold"
           onClick={props.onHide}
-          href="https://rwigley55.github.io/add-user-demo/"
+          href="https://rwigley55.github.io/space-tourism/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Visit Project
         </Button>
