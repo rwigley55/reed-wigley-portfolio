@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/reed-wigley-portfolio/static/css/main.7dd13640.css",
-    "main.js": "/reed-wigley-portfolio/static/js/main.11d6ebe7.js",
+    "main.js": "/reed-wigley-portfolio/static/js/main.183a9202.js",
     "static/js/787.bfcd4665.chunk.js": "/reed-wigley-portfolio/static/js/787.bfcd4665.chunk.js",
     "static/media/headshot_wigleyr.jpg": "/reed-wigley-portfolio/static/media/headshot_wigleyr.2fc204309abe70c8e862.jpg",
+    "static/media/space-tourism-website.png": "/reed-wigley-portfolio/static/media/space-tourism-website.dba7d8b7ceb0535a394f.png",
     "static/media/expenses-app.png": "/reed-wigley-portfolio/static/media/expenses-app.cdc56b531302879f431d.png",
     "static/media/tip-calculator.png": "/reed-wigley-portfolio/static/media/tip-calculator.5992f9261bcbfae38f2c.png",
     "static/media/logo.svg": "/reed-wigley-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -22,11 +23,11 @@
     "static/media/tailwind.svg": "/reed-wigley-portfolio/static/media/tailwind.d66c5e391938fd9ecc7986dc9de39d05.svg",
     "static/media/navbar-icon.svg": "/reed-wigley-portfolio/static/media/navbar-icon.eea673189315391b1ef4.svg",
     "main.7dd13640.css.map": "/reed-wigley-portfolio/static/css/main.7dd13640.css.map",
-    "main.11d6ebe7.js.map": "/reed-wigley-portfolio/static/js/main.11d6ebe7.js.map",
+    "main.183a9202.js.map": "/reed-wigley-portfolio/static/js/main.183a9202.js.map",
     "787.bfcd4665.chunk.js.map": "/reed-wigley-portfolio/static/js/787.bfcd4665.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7dd13640.css",
-    "static/js/main.11d6ebe7.js"
+    "static/js/main.183a9202.js"
   ]
 }
