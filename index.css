@@ -1,0 +1,224 @@
+/* ----------------------  */
+/* Custom properties       */
+/* ----------------------  */
+
+:root {
+  /* colors */
+  --clr-green: #14ff00;
+  --clr-orange: #ffb800;
+  --clr-white: #f5f3f4;
+  --clr-dark-grey: #373737;
+  --clr-light-grey: #484848;
+
+  /* font-sizes */
+  --fs-lrg: 3rem;
+  --fs-med: 1rem;
+  --fs-sm: 0.8rem;
+}
+
+@media (min-width: 35em) {
+  :root {
+    --fs-lrg: 4rem;
+    --fs-med: 1.1rem;
+    --fs-sm: 0.85rem;
+  }
+}
+
+@media (min-width: 45em) {
+  :root {
+    --fs-lrg: 5rem;
+    --fs-med: 1.2rem;
+    --fs-sm: 0.9rem;
+  }
+}
+
+/* ----------------------  */
+/* Reset                   */
+/* ----------------------  */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  font-family: "Dosis", sans-serif;
+  font-size: var(--fs-med);
+  color: var(--clr-white);
+  background-color: var(--clr-dark-grey);
+
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+
+  display: grid;
+  grid-template-rows: min-content 1fr;
+
+  overflow-x: hidden;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ----------------------  */
+/* Utilities               */
+/* ----------------------  */
+
+/* General */
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+.d-block {
+  display: block;
+}
+
+.flow--space-small {
+  --flow-space: 0.75rem;
+}
+
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 80rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* added line */
+  border: 0;
+}
+
+.skip-to-content {
+  position: absolute;
+  z-index: 9999;
+  background: hsl(var(--clr-white));
+  color: hsl(var(--clr-dark));
+  padding: 0.5em 1em;
+  margin-inline: auto;
+  transform: translateY(-100%);
+  transition: transform 250ms ease-in;
+}
+
+.skip-to-content:focus {
+  transform: translateY(0);
+}
+
+/* Colors */
+.bg-dark {
+  background-color: var(--clr-dark-grey);
+}
+
+.bg-light {
+  background-color: var(--clr-light-grey);
+}
+
+.text-green {
+  color: var(--clr-green);
+}
+
+.text-orange {
+    color: var(--clr-orange);
+}
+
+.text-white {
+    color: var(--clr-white);
+}
+
+/* typography */
+.lowercase {
+    text-transform: lowercase;
+}
+
+.fs-lrg {
+    font-size: var(--fs-lrg);
+}
+
+.fs-med {
+    font-size: var(--fs-med);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
