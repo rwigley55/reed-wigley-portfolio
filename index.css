@@ -12,14 +12,14 @@
 
   /* font-sizes */
   --fs-lrg: 3rem;
-  --fs-med: 1rem;
+  --fs-med: 1.4rem;
   --fs-sm: 0.8rem;
 }
 
 @media (min-width: 35em) {
   :root {
     --fs-lrg: 4rem;
-    --fs-med: 1.1rem;
+    --fs-med: 1.5rem;
     --fs-sm: 0.85rem;
   }
 }
@@ -27,7 +27,7 @@
 @media (min-width: 45em) {
   :root {
     --fs-lrg: 5rem;
-    --fs-med: 1.2rem;
+    --fs-med: 1.6rem;
     --fs-sm: 0.9rem;
   }
 }
@@ -62,7 +62,7 @@ h4,
 h5,
 h6,
 p {
-  font-weight: 400;
+  font-weight: 100;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -148,6 +148,11 @@ select {
   display: block;
 }
 
+.flow > *:where(:not(:first-child)) {
+  margin-top: var(--flow-space, 1rem);
+  /* outline: 1px solid red; */
+}
+
 .flow--space-small {
   --flow-space: 0.75rem;
 }
@@ -194,31 +199,43 @@ select {
   background-color: var(--clr-light-grey);
 }
 
+.bg-white {
+  background-color: var(--clr-white);
+}
+
+.bg-green {
+  background-color: var(--clr-green);
+}
+
+.bg-orange {
+  background-color: var(--clr-orange);
+}
+
 .text-green {
   color: var(--clr-green);
 }
 
 .text-orange {
-    color: var(--clr-orange);
+  color: var(--clr-orange);
 }
 
 .text-white {
-    color: var(--clr-white);
+  color: var(--clr-white);
 }
 
 /* typography */
 .lowercase {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .fs-lrg {
-    font-size: var(--fs-lrg);
+  font-size: var(--fs-lrg);
 }
 
 .fs-med {
-    font-size: var(--fs-med);
+  font-size: var(--fs-med);
 }
 
 .fs-sm {
-    font-size: var(--fs-sm);
+  font-size: var(--fs-sm);
 }
