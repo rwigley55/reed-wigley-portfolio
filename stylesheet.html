@@ -14,14 +14,15 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
+    <title>Reed Wigley | Stylesheet</title>
+    <script src="modal.js" defer></script>
   </head>
   <body>
     <div class="container">
       <h1>Stylesheet</h1>
 
       <section id="colors" style="margin: 4rem 0">
-        <h2>Colors</h2>
+        <h2>1. Colors</h2>
         <div class="flex">
           <div style="flex-grow: 1">
             <div
@@ -65,7 +66,7 @@
       </section>
 
       <section id="typography" style="margin: 4rem 0">
-        <h2>Typography</h2>
+        <h2>2. Typography</h2>
         <div class="flex">
           <div class="flow" style="flex-basis: 100%; --flow-space: 3rem">
             <div>
@@ -106,6 +107,67 @@
                 dapibus id, mattis vel, nisi.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="flow">
+        <h2>3. Interactive Elements</h2>
+
+        <div>
+          <nav class="border--bottom-green">
+            <ul class="primary-navigation flex">
+              <li>
+                <a class="lowercase text-white" href="#">Menu 1</a>
+              </li>
+              <li>
+                <a class="lowercase text-white" href="#">Menu 2</a>
+              </li>
+              <li>
+                <a class="lowercase text-orange" href="#">Menu 3</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex space-evenly">
+          <div class="card">
+            <img
+              src="src/imgs/placeholder-img.jpg"
+              alt="Card Image"
+              class="card-img"
+            />
+            <div class="card-body">
+              <div class="card-title fs-med">Card Title</div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="src/imgs/placeholder-img.jpg"
+              alt="Card Image"
+              class="card-img"
+            />
+            <div class="card-body">
+              <div class="card-title fs-med">Card Title</div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="src/imgs/placeholder-img.jpg"
+              alt="Card Image"
+              class="card-img"
+            />
+            <div class="card-body">
+              <div class="card-title fs-med">Card Title</div>
+            </div>
+          </div>
+        </div>
+
+        <button class="open-modal-button" id="openModalBtn">Open Modal</button>
+        <div class="modal-overlay" id="modalOverlay">
+          <div class="modal">
+            <h2>Modal Content</h2>
+            <p>This is a simple website modal.</p>
+            <button id="closeModalBtn">Close Modal</button>
           </div>
         </div>
       </section>
