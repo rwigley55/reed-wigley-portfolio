@@ -98,6 +98,11 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 /* Make images easier to work with */
 img,
 picture {
