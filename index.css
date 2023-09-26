@@ -14,6 +14,10 @@
   --fs-lrg: 3rem;
   --fs-med: 1.4rem;
   --fs-sm: 0.8rem;
+
+  /* font-weight */
+  --fw-400: 400;
+  --fw-200: 200;
 }
 
 @media (min-width: 35em) {
@@ -61,8 +65,10 @@ h3,
 h4,
 h5,
 h6,
-p {
-  font-weight: 100;
+p,
+a,
+div {
+  font-weight: 200;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -286,6 +292,14 @@ select {
   font-size: var(--fs-sm);
 }
 
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
 /* ----------------------  */
 /* Componenets             */
 /* ----------------------  */
@@ -377,10 +391,11 @@ select {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.75);
   justify-content: center;
   align-items: center;
   z-index: 999;
+  margin: 0;
 }
 .modal {
   background-color: var(--clr-light-grey);

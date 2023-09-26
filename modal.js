@@ -3,6 +3,7 @@ const openModal1 = document.getElementById("openModal1");
 const closeModalButton1 = document.getElementById("closeModalBtn1");
 const modalOverlay1 = document.getElementById("modalOverlay1");
 
+// Modal 1
 openModal1.addEventListener("click", () => {
   modalOverlay1.style.display = "flex";
 });
@@ -51,6 +52,15 @@ closeModalButton3.addEventListener("click", () => {
 
 modalOverlay3.addEventListener("click", (event) => {
   if (event.target === modalOverlay3) {
+    modalOverlay3.style.display = "none";
+  }
+});
+
+// ESC close
+document.addEventListener("keyup", (event) => {
+  if (event.key === "Escape") {
+    modalOverlay1.style.display = "none";
+    modalOverlay2.style.display = "none";
     modalOverlay3.style.display = "none";
   }
 });
