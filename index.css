@@ -157,14 +157,26 @@ select {
   --flow-space: 0.75rem;
 }
 
+.margin-top {
+  margin-top: 1rem;
+}
+
 .space-evenly {
   justify-content: space-evenly;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .container {
   padding-inline: 2em;
   margin-inline: auto;
   max-width: 80rem;
+}
+
+.border-radius {
+  border-radius: 20px;
 }
 
 .sr-only {
@@ -227,8 +239,29 @@ select {
   color: var(--clr-white);
 }
 
+.text-dark {
+  color: var(--clr-dark-grey);
+}
+
+/* Spacing */
+.padding-bottom {
+  padding-bottom: 1em;
+}
+
 .border--bottom-green {
   border-bottom: 3px solid var(--clr-green);
+}
+
+.border-0 {
+  border: 0;
+}
+
+.align-text-left {
+  text-align: left;
+}
+
+.align-self-right {
+  align-self: flex-end;
 }
 
 /* typography */
@@ -345,18 +378,31 @@ select {
   z-index: 999;
 }
 .modal {
-  background-color: #fff;
+  background-color: var(--clr-light-grey);
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-/* Button style to open the modal */
-.open-modal-button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+
+.modal button {
   cursor: pointer;
+}
+
+.modal button:first-child:hover {
+  background-color: var(--clr-green);
+  transition: background-color 0.5s ease;
+}
+
+.close-button {
+  padding: 0.5em;
+  background-color: inherit;
+  border: 0;
+  fill: var(--clr-orange);
+}
+
+.close-button:hover,
+.close-button:focus {
+  fill: var(--clr-green);
+  transition: fill 1s ease;
 }
