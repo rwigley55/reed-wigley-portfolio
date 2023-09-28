@@ -190,6 +190,10 @@ select {
   border-radius: 20px;
 }
 
+.border-radius-lrg {
+  border-radius: 20%;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -261,6 +265,10 @@ select {
 
 .border--bottom-green {
   border-bottom: 3px solid var(--clr-green);
+}
+
+.border-green {
+  border: 1px solid var(--clr-green);
 }
 
 .border-0 {
@@ -425,4 +433,94 @@ select {
 .close-button:focus {
   fill: var(--clr-green);
   transition: fill 1s ease;
+}
+
+/* ----------------------  */
+/* Layout                  */
+/* ----------------------  */
+
+.grid-container {
+  text-align: center;
+  /* border: 5px solid yellow; */
+  display: grid;
+  place-items: center;
+  padding-inline: 1rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 45em) {
+  .grid-container {
+    text-align: left;
+    column-gap: var(--container-gap, 2rem);
+    grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(
+        1rem,
+        1fr
+      );
+  }
+}
+/* title card */
+.grid-container--title {
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    ". one one ."
+    ". two two .";
+  /* width: (95%, 70rem); */
+  height: 100vh;
+}
+
+.line-1--title {
+  grid-area: one;
+  align-self: end;
+}
+
+.line-2--title {
+  grid-area: two;
+  align-self: start;
+}
+
+/* about card */
+.grid-container--about {
+  grid-template-areas:
+    "header"
+    "content"
+    "img"
+    "icons";
+}
+
+.header--about {
+  grid-area: header;
+  justify-self: start;
+  border: 2px solid blue;
+}
+
+.content--about {
+  grid-area: content;
+  border: 2px solid red;
+}
+
+.content--about > p:where(:not(:first-child)) {
+  margin-top: 3rem;
+  /* outline: 1px solid red; */
+}
+
+.img--about {
+  grid-area: img;
+  border: 2px solid orange;
+}
+
+.icon-tray {
+  grid-area: icons;
+  border: 2px solid green;
+}
+
+@media (min-width: 45em) {
+  .grid-container--about {
+    grid-template-columns:
+      minmax(1rem, 1fr) minmax(0, 35rem) minmax(20rem, 35rem)
+      minmax(1rem, 1fr);
+    grid-template-areas:
+      ". header header ."
+      ". content img ."
+      ". icons icons .";
+  }
 }
