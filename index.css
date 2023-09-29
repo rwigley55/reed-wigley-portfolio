@@ -435,6 +435,12 @@ select {
   transition: fill 1s ease;
 }
 
+/* Contact SVG icons */
+.icon--contact:hover {
+  fill: var(--clr-green);
+  transition: fill 0.5s ease;
+}
+
 /* ----------------------  */
 /* Layout                  */
 /* ----------------------  */
@@ -521,6 +527,82 @@ select {
     grid-template-areas:
       ". header header ."
       ". content img ."
+      ". icons icons .";
+  }
+}
+
+/* portfolio card */
+.grid-container--portfolio {
+  grid-template-areas:
+    "header"
+    "content"
+    "modal";
+}
+
+.header--portfolio {
+  grid-area: header;
+  justify-self: start;
+  border: 2px solid blue;
+}
+
+.content--portfolio {
+  grid-area: content;
+  border: 2px solid red;
+}
+
+.modal--portfolio {
+  grid-area: modal;
+  border: 2px solid green;
+}
+
+@media (min-width: 45em) {
+  .grid-container--portfolio {
+    grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 35rem)) minmax(
+        1rem,
+        1fr
+      );
+    grid-template-areas:
+      ". header header ."
+      ". content content ."
+      ". modal modal .";
+  }
+}
+
+/* contact card */
+.grid-container--contact {
+  grid-template-areas:
+    "header"
+    "content"
+    "icons";
+}
+
+.header--contact {
+  grid-area: header;
+  justify-self: start;
+  border: 2px solid blue;
+}
+
+.content--contact {
+  grid-area: content;
+  border: 2px solid red;
+}
+
+.icons--contact {
+  grid-area: icons;
+  gap: var(--gap, 2rem);
+  margin-top: var(--flow-space, 3rem);
+  border: 2px solid green;
+}
+
+@media (min-width: 45em) {
+  .grid-container--contact {
+    grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 35rem)) minmax(
+        1rem,
+        1fr
+      );
+    grid-template-areas:
+      ". header header ."
+      ". content content ."
       ". icons icons .";
   }
 }
