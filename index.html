@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="index.css" />
     <title>Document</title>
     <script src="modal.js" defer></script>
+    <script src="navigation.js" defer></script>
   </head>
   <body>
     <!-- title card -->
@@ -29,8 +30,15 @@
     </div>
     <!-- nav -->
     <div class="sticky">
-      <nav class="border--bottom-green">
-        <ul class="primary-navigation flex">
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+        <span class="sr-only" aria-expanded="false">Menu</span>
+      </button>
+      <nav id="testinghere">
+        <ul
+          id="primary-navigation"
+          data-visible="false"
+          class="primary-navigation flex"
+        >
           <li>
             <a class="lowercase text-white" href="#">Home</a>
           </li>
