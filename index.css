@@ -82,6 +82,10 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-padding-top: 5em;
+}
+
 /* Set core body defaults */
 body {
   font-family: "Dosis", sans-serif;
@@ -161,7 +165,6 @@ select {
 
 .flow > *:where(:not(:first-child)) {
   margin-top: var(--flow-space, 1rem);
-  /* outline: 1px solid red; */
 }
 
 .flow--space-small {
@@ -269,9 +272,9 @@ select {
   padding-bottom: 1em;
 }
 
-/* .border--bottom-green {
+.border--bottom-green {
   border-bottom: 3px solid var(--clr-green);
-} */
+}
 
 .border-green {
   border: 1px solid var(--clr-green);
@@ -409,6 +412,12 @@ select {
   border-top-right-radius: 5px;
 }
 
+.thumbnail {
+  height: 160px;
+  width: auto;
+  object-fit: cover;
+}
+
 /* Styles for the card title */
 .card-title {
   margin-bottom: 10px;
@@ -452,6 +461,13 @@ select {
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
+  max-width: min(85vw, 30em);
+}
+
+.modal-img {
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 1em;
 }
 
 .modal button {
@@ -488,7 +504,6 @@ select {
 
 .grid-container {
   text-align: center;
-  /* border: 5px solid yellow; */
   display: grid;
   place-items: center;
   padding-inline: 1rem;
@@ -521,14 +536,12 @@ select {
 .line-1--title {
   grid-area: one;
   align-self: end;
-  border: 1px solid red;
   line-height: 1;
 }
 
 .line-2--title {
   grid-area: two;
   align-self: start;
-  border: 1px solid green;
   line-height: 1;
 }
 
@@ -544,26 +557,21 @@ select {
 .header--about {
   grid-area: header;
   justify-self: start;
-  border: 2px solid blue;
 }
 
 .content--about {
   grid-area: content;
-  border: 2px solid red;
 }
 
 .content--about > p:where(:not(:first-child)) {
   margin-top: 3rem;
-  /* outline: 1px solid red; */
 }
 
 .img--about {
   grid-area: img;
-  border: 2px solid orange;
 }
 
 .icon-tray {
-  border: 2px solid green;
   grid-area: icons;
   /* flex-direction: column; */
   /* width: 100%;
@@ -608,19 +616,14 @@ select {
 .header--portfolio {
   grid-area: header;
   justify-self: start;
-  border: 2px solid blue;
 }
 
 .content--portfolio {
   grid-area: content;
-  border: 2px solid red;
 }
 
 .modal--portfolio {
   grid-area: modal;
-  border: 2px solid green;
-  /* flex-direction: column;
-  width: 100%; */
   flex-wrap: wrap;
 }
 
@@ -652,19 +655,16 @@ select {
 .header--contact {
   grid-area: header;
   justify-self: start;
-  border: 2px solid blue;
 }
 
 .content--contact {
   grid-area: content;
-  border: 2px solid red;
 }
 
 .icons--contact {
   grid-area: icons;
   gap: var(--gap, 2rem);
   margin-top: var(--flow-space, 3rem);
-  border: 2px solid green;
 }
 
 @media (min-width: 45em) {

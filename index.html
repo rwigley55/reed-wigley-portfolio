@@ -14,13 +14,13 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
+    <title>Reed Wigley</title>
     <script src="modal.js" defer></script>
     <script src="navigation.js" defer></script>
   </head>
   <body>
     <!-- title card -->
-    <div class="grid-container grid-container--title">
+    <div id="home" class="grid-container grid-container--title">
       <h1 class="fs-lrg line-1--title">
         Hello, I'm <span class="text-green">Reed Wigley</span>,
       </h1>
@@ -40,25 +40,30 @@
           class="primary-navigation flex"
         >
           <li>
-            <a class="lowercase text-white" href="#">Home</a>
+            <a class="lowercase text-white" href="#home">Home</a>
           </li>
           <li>
-            <a class="lowercase text-white" href="#">About</a>
+            <a class="lowercase text-white" href="#about">About</a>
           </li>
           <li>
-            <a class="lowercase text-white" href="#">Portfolio</a>
+            <a class="lowercase text-white" href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a class="lowercase text-white" href="#">Contact</a>
+            <a class="lowercase text-white" href="#contact">Contact</a>
           </li>
           <li>
-            <a class="lowercase text-orange" href="#">Resume</a>
+            <a
+              class="lowercase text-orange"
+              href="https://rwigley55.github.io/resume/"
+              target="_blank"
+              >Resume</a
+            >
           </li>
         </ul>
       </nav>
     </div>
     <!-- about  -->
-    <section class="grid-container grid-container--about flow">
+    <section id="about" class="grid-container grid-container--about flow">
       <h2 class="header--about fs-lrg lowercase">About</h2>
       <div class="content--about align-text-left">
         <p class="fs-med align-text-left">
@@ -275,7 +280,10 @@
       </div>
     </section>
     <!-- portfolio card -->
-    <section class="bg-light grid-container grid-container--portfolio flow">
+    <section
+      id="portfolio"
+      class="bg-light grid-container grid-container--portfolio flow"
+    >
       <h2 class="header--portfolio fs-lrg lowercase">Portfolio</h2>
       <div class="content--portfolio align-text-left">
         <p class="fs-med align-text-left">
@@ -290,32 +298,32 @@
       <div class="flex space-evenly modal--portfolio">
         <div id="openModal1" class="card">
           <img
-            src="src/imgs/placeholder-img.jpg"
+            src="src/imgs/tip-calculator.png"
             alt="Card Image"
-            class="card-img"
+            class="card-img thumbnail"
           />
           <div class="card-body">
-            <div class="card-title fs-med">Card Title</div>
+            <div class="card-title fs-med">Tip Calculator</div>
           </div>
         </div>
         <div id="openModal2" class="card">
           <img
-            src="src/imgs/placeholder-img.jpg"
+            src="src/imgs/space-tourism-website.png"
             alt="Card Image"
-            class="card-img"
+            class="card-img thumbnail"
           />
           <div class="card-body">
-            <div class="card-title fs-med">Card Title</div>
+            <div class="card-title fs-med">Space Tourism</div>
           </div>
         </div>
         <div id="openModal3" class="card">
           <img
-            src="src/imgs/placeholder-img.jpg"
+            src="src/imgs/expenses-app.png"
             alt="Card Image"
-            class="card-img"
+            class="card-img thumbnail"
           />
           <div class="card-body">
-            <div class="card-title fs-med">Card Title</div>
+            <div class="card-title fs-med">Expenses App</div>
           </div>
         </div>
       </div>
@@ -324,17 +332,22 @@
       <div class="modal-overlay" id="modalOverlay1">
         <div class="modal">
           <img
-            src="src/imgs/placeholder-img.jpg"
+            src="src/imgs/tip-calculator.png"
             alt="Card Image"
-            class="card-img border--bottom-green padding-bottom"
+            class="card-img border--bottom-green modal-img"
           />
-          <h2 class="fs-med">Modal Content 1</h2>
-          <h2 class="fs-med text-green align-text-left">Modal Content 1</h2>
-          <p class="align-text-left">This is a simple website modal.</p>
+          <h2 class="fs-med align-text-left">Tip Calculator</h2>
+          <h2 class="fs-med text-green align-text-left">HTML CSS React</h2>
+          <p class="align-text-left">
+            A tip splitting App built primarily with React. The calculator will
+            calculate the correct tip and total cost of the bill per person. The
+            app includes a custom percentage input and active states for the
+            other ineractive elements.
+          </p>
           <div class="flex space-between margin-top">
             <button class="bg-orange border-0 border-radius">
               <a
-                href="https://github.com/rwigley55"
+                href="https://rwigley55.github.io/tip-calculator/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="fw-400 text-dark fs-med"
@@ -371,17 +384,25 @@
       <div class="modal-overlay" id="modalOverlay2">
         <div class="modal">
           <img
-            src="src/imgs/placeholder-img.jpg"
+            src="src/imgs/space-tourism-website.png"
             alt="Card Image"
-            class="card-img border--bottom-green padding-bottom"
+            class="card-img border--bottom-green modal-img"
           />
-          <h2 class="fs-med">Modal Content 2</h2>
-          <h2 class="fs-med text-green align-text-left">Modal Content 2</h2>
-          <p class="align-text-left">This is a simple website modal.</p>
+          <h2 class="fs-med align-text-left">Space Tourism Website</h2>
+          <h2 class="fs-med text-green align-text-left">HTML CSS JavaScript</h2>
+          <p class="align-text-left">
+            This demo project showcases a fictional website of a company
+            offering space tourism. This project is built with an understanding
+            of semantic HTML5 markup, custom CSS properties, CSS flexbox, CSS
+            grid, and mobile-first workflow. The website is optimally styled for
+            three different screen sizes and includes hover states for all
+            interactive elements. Additionally, each content page includes tabs
+            that toggle different content.
+          </p>
           <div class="flex space-between margin-top">
             <button class="bg-orange border-0 border-radius">
               <a
-                href="https://github.com/rwigley55"
+                href="https://rwigley55.github.io/space-tourism/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="fw-400 text-dark fs-med"
@@ -418,17 +439,22 @@
       <div class="modal-overlay" id="modalOverlay3">
         <div class="modal">
           <img
-            src="src/imgs/placeholder-img.jpg"
+            src="src/imgs/expenses-app.png"
             alt="Card Image"
-            class="card-img border--bottom-green padding-bottom"
+            class="card-img border--bottom-green modal-img"
           />
-          <h2 class="fs-med">Modal Content 3</h2>
-          <h2 class="fs-med text-green align-text-left">Modal Content 3</h2>
-          <p class="align-text-left">This is a simple website modal.</p>
+          <h2 class="fs-med align-text-left">Expenses App</h2>
+          <h2 class="fs-med text-green align-text-left">HTML CSS React.js</h2>
+          <p class="align-text-left">
+            A web app that allows a user to input an expense, an expense amount,
+            and a date. The inputted data will be sorted into an expense
+            tracker, which can be filtered by year. A monthly graphic is
+            included by year.
+          </p>
           <div class="flex space-between margin-top">
             <button class="bg-orange border-0 border-radius">
               <a
-                href="https://github.com/rwigley55"
+                href="https://rwigley55.github.io/expenses-app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="fw-400 text-dark fs-med"
@@ -462,77 +488,85 @@
       </div>
     </section>
     <!-- contact card -->
-    <section class="grid-container grid-container--contact flow">
+    <section id="contact" class="grid-container grid-container--contact flow">
       <h2 class="header--contact fs-lrg lowercase">Contact</h2>
       <div class="content--contact align-text-left">
         <p class="fs-med align-text-left">
           Let's get in touch! I am looking for a new opportunity to fulfil my
           aspiration on becoming a front-end developer. Check out my
-          <a href="#" class="text-green">resume</a> and feel free to contact me
-          via any of the avenues listed below.
+          <a
+            href="https://rwigley55.github.io/resume/"
+            target="_blank"
+            class="text-green"
+            >resume</a
+          >
+          and feel free to contact me via any of the avenues listed below.
         </p>
       </div>
       <div class="icons--contact flex">
-        <svg
-          class="icon--contact"
-          fill="#FFB800"
-          width="80px"
-          height="80px"
-          viewBox="0 0 1920 1920"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z"
-            fill-rule="evenodd"
-          />
-        </svg>
-        <svg
-          class="icon--contact"
-          width="80px"
-          height="80px"
-          viewBox="0 0 20 20"
-          version="1.1"
-        >
-          <g
-            id="Page-1"
-            stroke="none"
-            stroke-width="1"
+        <a href="mailto:rwigley55@gmail.com" target="_blank">
+          <svg
+            class="icon--contact"
             fill="#FFB800"
-            fill-rule="evenodd"
+            width="80px"
+            height="80px"
+            viewBox="0 0 1920 1920"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z"
+              fill-rule="evenodd"
+            /></svg
+        ></a>
+        <a href="https://github.com/rwigley55" target="_blank">
+          <svg
+            class="icon--contact"
+            width="80px"
+            height="80px"
+            viewBox="0 0 20 20"
+            version="1.1"
           >
             <g
-              class="icon--contact"
-              transform="translate(-140.000000, -7559.000000)"
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
               fill="#FFB800"
+              fill-rule="evenodd"
             >
-              <g id="icons" transform="translate(56.000000, 160.000000)">
-                <path
-                  d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
-                  id="github-[#142]"
-                ></path>
+              <g
+                class="icon--contact"
+                transform="translate(-140.000000, -7559.000000)"
+                fill="#FFB800"
+              >
+                <g id="icons" transform="translate(56.000000, 160.000000)">
+                  <path
+                    d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                    id="github-[#142]"
+                  ></path>
+                </g>
               </g>
-            </g>
-          </g>
-        </svg>
-        <svg
-          class="icon--contact"
-          fill="#FFB800"
-          height="80px"
-          width="80px"
-          version="1.1"
-          id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          viewBox="-143 145 512 512"
-          xml:space="preserve"
-        >
-          <path
-            d="M-143,145v512h512V145H-143z M41.4,508.1H-8.5V348.4h49.9V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7
+            </g></svg
+        ></a>
+        <a href="https://www.linkedin.com/in/reedwigley/" target="_blank">
+          <svg
+            class="icon--contact"
+            fill="#FFB800"
+            height="80px"
+            width="80px"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="-143 145 512 512"
+            xml:space="preserve"
+          >
+            <path
+              d="M-143,145v512h512V145H-143z M41.4,508.1H-8.5V348.4h49.9V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7
 	c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6
 	c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1
 	c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z"
-          />
-        </svg>
+            /></svg
+        ></a>
       </div>
     </section>
   </body>
