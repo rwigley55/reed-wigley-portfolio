@@ -1,0 +1,11 @@
+{
+  "html": "path/to/html.svg",
+  "css": "path/to/css.svg",
+  "javascript": "path/to/javascript.svg",
+  "bootstrap": "path/to/bootstrap.svg",
+  "tailwind": "path/to/tailwind.svg",
+  "react": "path/to/react.svg",
+  "php": "path/to/php.svg",
+  "wordpress": "path/to/wordpress.svg",
+  "google_analytics": "path/to/google_analytics.svg"
+}
