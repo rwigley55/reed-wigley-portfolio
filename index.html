@@ -13,11 +13,9 @@
     />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="public/stylesheets/index.css" />
     <title>Reed Wigley</title>
     <link rel="icon" href="public/favicon.ico" />
-    <script src="modal.js" defer></script>
-    <script src="navigation.js" defer></script>
   </head>
 
   <body>
@@ -99,7 +97,7 @@
 
       <picture class="img--about" style="align-self: start">
         <img
-          src="src/imgs/headshot_wigleyr.jpg"
+          src="assets/imgs/headshot_wigleyr.jpg"
           alt="reed wigley headshot"
           class="border-radius-lrg border-green"
         />
@@ -115,8 +113,8 @@
       <h2 class="header--portfolio fs-lrg lowercase">Portfolio</h2>
       <div class="content--portfolio align-text-left">
         <p class="fs-med align-text-left">
-          Most of my current projects are built with
-          <span class="text-green">React.js</span>. I strive to create useful
+          Most of my current projects are built with vanilla
+          <span class="text-green">JavaScript</span>. I strive to create useful
           applications that are <span class="text-orange">dynamic</span>,
           <span class="text-orange">responsive</span>,
           <span class="text-orange">intuitive</span>, and
@@ -126,7 +124,7 @@
       <div class="flex space-evenly modal--portfolio">
         <div id="openModal1" class="card">
           <img
-            src="src/imgs/tip-calculator.png"
+            src="assets/imgs/tip-calculator.png"
             alt="Card Image"
             class="card-img thumbnail"
           />
@@ -136,7 +134,7 @@
         </div>
         <div id="openModal2" class="card">
           <img
-            src="src/imgs/space-tourism-website.png"
+            src="assets/imgs/space-tourism-website.png"
             alt="Card Image"
             class="card-img thumbnail"
           />
@@ -146,7 +144,7 @@
         </div>
         <div id="openModal3" class="card">
           <img
-            src="src/imgs/expenses-app.png"
+            src="assets/imgs/expenses-app.png"
             alt="Card Image"
             class="card-img thumbnail"
           />
@@ -160,7 +158,7 @@
       <div class="modal-overlay" id="modalOverlay1">
         <div class="modal">
           <img
-            src="src/imgs/tip-calculator.png"
+            src="assets/imgs/tip-calculator.png"
             alt="Card Image"
             class="card-img border--bottom-green modal-img"
           />
@@ -212,7 +210,7 @@
       <div class="modal-overlay" id="modalOverlay2">
         <div class="modal">
           <img
-            src="src/imgs/space-tourism-website.png"
+            src="assets/imgs/space-tourism-website.png"
             alt="Card Image"
             class="card-img border--bottom-green modal-img"
           />
@@ -267,7 +265,7 @@
       <div class="modal-overlay" id="modalOverlay3">
         <div class="modal">
           <img
-            src="src/imgs/expenses-app.png"
+            src="assets/imgs/expenses-app.png"
             alt="Card Image"
             class="card-img border--bottom-green modal-img"
           />
@@ -397,6 +395,8 @@
         ></a>
       </div>
     </section>
+    <script src="./public/javascripts/modal.js"></script>
+    <script src="./public/javascripts/navigation.js"></script>
     <script src="./public/javascripts/iconTray.js"></script>
   </body>
 </html>
