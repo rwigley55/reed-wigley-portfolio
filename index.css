@@ -288,6 +288,10 @@ select {
   text-align: left;
 }
 
+.align-text-center {
+  text-align: center;
+}
+
 .align-self-right {
   align-self: flex-end;
 }
@@ -678,4 +682,8 @@ select {
       ". content content ."
       ". icons icons .";
   }
+}
+
+.icon-tray p {
+  margin-top: 0.5rem;
 }
