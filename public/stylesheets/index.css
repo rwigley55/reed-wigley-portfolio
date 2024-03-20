@@ -606,6 +606,7 @@ i {
   /* width: 100%;
   align-items: center; */
   flex-wrap: wrap;
+  align-self: start;
 }
 
 .icon-tray p {
@@ -628,7 +629,7 @@ i {
   }
 }
 
-@media (min-width: 55em) {
+@media (min-width: 65em) {
   .grid-container--about {
     grid-template-columns:
       minmax(1rem, 1fr) minmax(0, 35rem) minmax(0, 35rem)
@@ -636,7 +637,7 @@ i {
     grid-template-areas:
       ". header header ."
       ". content img ."
-      ". icons icons .";
+      ". content icons .";
   }
 }
 
