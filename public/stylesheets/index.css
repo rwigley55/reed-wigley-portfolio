@@ -325,6 +325,26 @@ select {
 /* Componenets             */
 /* ----------------------  */
 
+/* Rain */
+
+i {
+  position: absolute;
+  height: 100px;
+  background: linear-gradient(transparent, rgba(255, 255, 255, 0.25));
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(calc(100vh + 500px));
+  }
+}
+
 /* Nav bar */
 .primary-navigation {
   --gap: clamp(1.5rem, 5vw, 3.5rem);
@@ -526,6 +546,8 @@ select {
 }
 /* title card */
 .grid-container--title {
+  overflow: hidden;
+  position: relative;
   grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 35rem)) minmax(
       1rem,
       1fr
@@ -535,6 +557,9 @@ select {
     ". two two .";
   /* width: (95%, 70rem); */
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .line-1--title {
