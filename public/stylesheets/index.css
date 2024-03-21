@@ -321,12 +321,26 @@ select {
   font-weight: 200;
 }
 
+.resume-link--contact {
+  background-image: linear-gradient(90deg, var(--clr-orange), var(--clr-green));
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  background-position: left 1.12em;
+
+  transition: background-size 500ms, color 500ms;
+}
+
+.resume-link--contact:hover,
+.resume-link--contact:focus {
+  background-size: 100% 2px;
+  color: var(--clr-orange);
+}
+
 /* ----------------------  */
 /* Componenets             */
 /* ----------------------  */
 
 /* Rain */
-
 i {
   position: absolute;
   height: 100px;
